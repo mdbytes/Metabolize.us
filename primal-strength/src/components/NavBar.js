@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 
 const logo =
-  "https://gowildthings.com/wp-content/uploads/2022/01/logo-small.png";
+  "https://pswp.mdbytes.com/wp-content/uploads/2018/02/bodybuilder-146791_1280_gold.png";
 
 class NavBar extends Component {
   constructor(props) {
@@ -19,7 +19,12 @@ class NavBar extends Component {
     }
   };
 
-  componentDidMount() {}
+  componentDidMount() {
+    let pattern = /\/$/;
+    if (!pattern.test(window.location.href)) {
+      document.querySelector("#homeLink").classList.remove("active");
+    }
+  }
   render() {
     return (
       <div>
@@ -27,7 +32,9 @@ class NavBar extends Component {
           <div className="container">
             <NavLink className="navbar-brand d-flex align-items-end" to="/">
               <img src={logo} alt="logo" />
-              <span className="company-font">WildThings Photography</span>
+              <span className="company-font">
+                Primal Strength & Conditioning
+              </span>
             </NavLink>
             <button
               id="navToggler"
@@ -74,7 +81,7 @@ class NavBar extends Component {
                     to="/posts"
                     onClick={this.navClick}
                   >
-                    Galleries
+                    Articles
                   </NavLink>
                 </li>
 

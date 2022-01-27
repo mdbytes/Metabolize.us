@@ -15,7 +15,9 @@ class Posts extends Component {
             <div className="col-lg-6 col-sm-12 col-xs-12 services-column">
               <div className="services__content">
                 <div className="icon fas fa-paper-plane d-block"></div>
-                <h3 className="display-3--title">{post.title.rendered}</h3>
+                <h3 className="display-3--title">
+                  {parse(post.title.rendered)}
+                </h3>
                 <span className="lh-lg">{parse(post.excerpt.rendered)}</span>
                 <div className="learn-btn">
                   <NavLink
@@ -30,9 +32,9 @@ class Posts extends Component {
                     type="button"
                     className="rounded-pill btn-rounded border-primary"
                   >
-                    See More
+                    Read More
                     <span>
-                      <i className="bi bi-images"></i>
+                      <i className="bi bi-book"></i>
                     </span>
                   </NavLink>
                 </div>

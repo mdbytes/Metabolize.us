@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 
-const penny =
-  "https://gowildthings.com/wp-content/uploads/2022/01/logo-small.png";
+const logo =
+  "https://pswp.mdbytes.com/wp-content/uploads/2018/02/bodybuilder-146791_1280_gold.png";
 
 class Footer extends Component {
   constructor(props) {
@@ -177,9 +177,9 @@ class Footer extends Component {
                 </div>
               </div>
               <div id="mascot-container" className="col-12 col-sm-4 col-lg-4">
-                <h5 className="company-font">WildThings Photography</h5>
+                <h5 className="company-font">Primal Strength & Conditioning</h5>
                 <br />
-                <img src={penny} alt="Baby Tux" className="img-fluid" />
+                <img src={logo} alt="Baby Tux" className="img-fluid" />
 
                 <p>
                   Connecting People <br />

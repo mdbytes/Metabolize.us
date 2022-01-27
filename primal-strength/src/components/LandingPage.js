@@ -13,12 +13,12 @@ class LandingPage extends Component {
           <div className="col-lg-12 intros">
             <div id="intro">
               <h1 className="company-font">
-                WildThings Photography
+                Primal Strength & Conditioning
                 <br />
               </h1>
               <span className="display-2--description lh-base">
                 <div id="tagline">
-                  Capturing pictures of wild things in their natural habitat
+                  Building overall health through strength and conditioning
                 </div>
                 <br />
                 <br />A site demo by{" "}
@@ -37,9 +37,9 @@ class LandingPage extends Component {
                 }}
                 exact
               >
-                Galleries{" "}
+                Articles{" "}
                 <span>
-                  <i className="bi bi-images"></i>
+                  <i className="bi bi-book"></i>
                 </span>
               </NavLink>
             </div>
