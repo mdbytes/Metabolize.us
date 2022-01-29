@@ -17359,7 +17359,7 @@ body {
   right: 0;
   z-index: -1;
   /* needed to keep in the background */
-  background: url("https://pswp.mdbytes.com/wp-content/uploads/2022/01/pexels-photo-841130-1.jpeg") top center;
+  background: url("https://goprimalstrength.com/wp-content/uploads/2022/01/pexels-photo-841130-1.jpeg") top center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -18230,6 +18230,10 @@ div[data-post-id="757"] img {
   display: block;
   width: 100%;
 }
+#post-1120 img {
+  max-width: 100%;
+  height: auto;
+}
 #post-1120 p {
   font-size: 1.1rem;
   line-height: 1.75rem;
@@ -18255,7 +18259,26 @@ div[data-post-id="757"] img {
   margin-right: 1.5rem;
   margin-bottom: 1rem;
 }
+#post-1120 #phase-1-img,
+#post-1120 #phase-2-img,
+#post-1120 #phase-3-img,
+#post-1120 #phase-4-img {
+  width: 300px;
+  height: auto;
+  float: left;
+  margin-right: 1rem;
+}
 
+#post-808 img {
+  max-width: 100%;
+  height: auto;
+}
+
+#post-883 div.row.post-feature-img img {
+  width: 70%;
+  height: auto;
+  max-width: 700px;
+}
 #post-883 #diff-table th,
 #post-883 #diff-table td {
   padding: 1rem 0 1rem 1rem !important;

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 
 const logo =
-  "https://pswp.mdbytes.com/wp-content/uploads/2018/02/bodybuilder-146791_1280_gold.png";
+  "https://goprimalstrength.com/wp-content/uploads/2018/02/bodybuilder-146791_1280_gold.png";
 
 class Footer extends Component {
   constructor(props) {
