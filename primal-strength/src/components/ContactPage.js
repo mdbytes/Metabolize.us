@@ -44,27 +44,25 @@ class ContactPage extends Component {
           <div className="row text-white">
             <div className="col-12 col-lg-6 ">
               <div className="cta-info w-100">
-                <h4 className="display-3--title mb-5">
-                  WildThings Photography
-                </h4>
+                <h4 className="display-3--title mb-5">Primal Strength</h4>
                 <p className="lh-lg">
-                  We strive to provide here on the website is a flavor of the
-                  photos we have gathered from exciting natural wildlife
-                  habitats.
+                  Thanks for visiting Primal Strength and Conditioning. We hope
+                  you have found inspiration here for living strong and staying
+                  positive through strength training and conditioning.
                 </p>
                 <h3 className="display-3--brief">
                   You might also be interested in:{" "}
                 </h3>
                 <ul className="cta-info__list">
-                  <li>High quality digital images.</li>
-                  <li>Additional preview images.</li>
-                  <li>Travel recommendations for the sites we have visited.</li>
+                  <li>Additional training resources.</li>
+                  <li>Online strength and conditioning guidance.</li>
+                  <li>An encouraging word.</li>
                 </ul>
               </div>
             </div>
             <div className="col-12 col-lg-6 ">
               <div className="form w-100 pb-2">
-                <h4 className="display-3--title mb-5">Plan Your Tour</h4>
+                <h4 className="display-3--title mb-5">Contact Us</h4>
                 <form id="form" className="row">
                   <div className="col-lg-6 col-md-6 mb-3">
                     <input
@@ -140,8 +138,8 @@ class ContactPage extends Component {
                 </div>
                 <div className="modal-body text-black">
                   <p>
-                    Thanks for visiting WildThings Photography, a site used for
-                    demonstration purposes by MD Bytes.
+                    Thanks for visiting Primal Strength and Conditioning, a
+                    website used for demonstration purposes by MD Bytes.
                   </p>
 
                   <p>

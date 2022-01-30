@@ -182,6 +182,10 @@
       align-self: flex-start;
       justify-self: center;
     }
+
+    @include media-breakpoint-down(lg) {
+      display: none;
+    }
   }
 
   #quick-links {

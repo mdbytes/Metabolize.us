@@ -17834,6 +17834,9 @@ button.gnext.gbtn {
   animation-delay: 0s !important;
   animation-duration: 3.5s !important;
 }
+.services .service-item-row .read-more {
+  display: none;
+}
 @keyframes loadIn {
   0% {
     opacity: 0;
@@ -18570,6 +18573,11 @@ div[data-post-id="757"] img {
 .footer-middle #site-menu h5 {
   align-self: flex-start;
   justify-self: center;
+}
+@media (max-width: 991.98px) {
+  .footer-middle #site-menu {
+    display: none;
+  }
 }
 .footer-middle #quick-links {
   padding-top: 1rem;

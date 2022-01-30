@@ -71,6 +71,10 @@
         animation: fadeIn;
         animation-delay: 0s !important;
         animation-duration: 3.5s !important;
+
+        .read-more {
+            display: none;
+        }
     }
 
     @keyframes loadIn {
