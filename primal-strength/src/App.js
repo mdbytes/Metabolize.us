@@ -12,6 +12,8 @@
 // Import React components first
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import { WP_REST_GET_POSTS_URL } from "./config/keys";
+import axios from "axios";
 
 // Import EmailJs for initiation
 import emailjs from "@emailjs/browser";
@@ -36,8 +38,21 @@ import Footer from "./components/Footer";
  * @returns primary router component of the App
  */
 class App extends Component {
+  state = { posts: [], selectedPost: "" };
+
   componentDidMount() {
-    console.log("app props", this.props.posts);
+    let blogPosts = [];
+    axios.get(WP_REST_GET_POSTS_URL).then((response) => {
+      blogPosts = response.data;
+      for (let blog of blogPosts) {
+        blog.excerpt.rendered = blog.excerpt.rendered
+          .replace(/(^"|"$)/g, "")
+          .replace("[", "")
+          .replace("]", "");
+      }
+      this.setState({ posts: blogPosts });
+      console.log("state", this.state);
+    });
   }
 
   render() {
@@ -48,15 +63,15 @@ class App extends Component {
           <ScrollToTop />
           <NavBar />
           <Route exact path="/">
-            <LandingPage posts={this.props.posts} />
+            <LandingPage posts={this.state.posts} />
           </Route>
           <Route exact path="/about">
             <AboutPage />
           </Route>
           <Route exact path="/posts">
-            <PostsPage posts={this.props.posts} />
+            <PostsPage posts={this.state.posts} />
           </Route>
-          <Route exact path="/post" posts={this.props.posts}>
+          <Route exact path="/post" posts={this.state.posts}>
             <PostPage />
           </Route>
           <Route exact path="/contact">
