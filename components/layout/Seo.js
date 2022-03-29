@@ -1,10 +1,11 @@
 import React from "react";
-import { Helmet } from "react-helmet";
+import Head from "next/head";
 
 const Seo = (props) => {
   return (
-    <Helmet>
+    <Head>
       <title>{props.title}</title>
+      <meta property="og:title" content={props.title} key="title" />
       <meta
         name="description"
         content="Primal Strength Training and Conditioning, a website dedicated to strength, conditioning and longevity."
@@ -13,7 +14,7 @@ const Seo = (props) => {
         name="keywords"
         content="powerlifting conditioning weight lifting fitness longevity"
       />
-    </Helmet>
+    </Head>
   );
 };
 
