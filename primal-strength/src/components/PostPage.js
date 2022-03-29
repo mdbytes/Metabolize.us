@@ -1,4 +1,3 @@
-import PortfolioItems from "./post/PortfolioItems";
 import React from "react";
 import { useLocation } from "react-router-dom";
 import parse from "html-react-parser";

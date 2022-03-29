@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Carousel from "react-bootstrap/Carousel";
 
 class AboutContent extends Component {
   render() {
@@ -177,7 +176,7 @@ class AboutContent extends Component {
                       loading="lazy"
                       className="fl-photo-img wp-image-1344 size-full"
                       src="https://goprimalstrength.com/wp-content/uploads/2018/06/spalding_basketball2.jpg"
-                      alt="EPSON MFP image"
+                      alt="EPSON MFP"
                       itemProp="image"
                       height="1401"
                       width="1440"
@@ -204,7 +203,7 @@ class AboutContent extends Component {
                       loading="lazy"
                       className="fl-photo-img wp-image-1345 size-full"
                       src="https://goprimalstrength.com/wp-content/uploads/2018/06/miilikin_baseball2.jpg"
-                      alt="EPSON MFP image"
+                      alt="EPSON MFP Number 2"
                       itemProp="image"
                       height="1196"
                       width="1094"
@@ -231,7 +230,7 @@ class AboutContent extends Component {
                       loading="lazy"
                       className="fl-photo-img wp-image-1346 size-full"
                       src="https://goprimalstrength.com/wp-content/uploads/2018/06/millikin_basketball2.jpg"
-                      alt="EPSON MFP image"
+                      alt="EPSON MFP Number 3"
                       itemProp="image"
                       height="1314"
                       width="1672"
