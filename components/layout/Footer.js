@@ -50,7 +50,7 @@ class Footer extends Component {
                   <div id="social-icons" className="row ">
                     <a
                       className="col"
-                      href="http://facebook.com"
+                      href="http://facebook.com/mdbytes"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -58,7 +58,7 @@ class Footer extends Component {
                     </a>
                     <a
                       className="col"
-                      href="http://twitter.com"
+                      href="http://twitter.com/mdbytes"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -66,7 +66,7 @@ class Footer extends Component {
                     </a>
                     <a
                       className="col"
-                      href="http://github.com"
+                      href="http://github.com/martindwyer"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -74,7 +74,7 @@ class Footer extends Component {
                     </a>
                     <a
                       className="col"
-                      href="http://linkedin.com"
+                      href="http://linkedin.com/in/mdbytes"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
