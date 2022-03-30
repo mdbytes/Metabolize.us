@@ -22,7 +22,7 @@ const ContactPage = () => {
 
   return (
     <Layout>
-      <Seo title="Contact" />
+      <Seo title="Email Us Today" />
       <section id="contact" className="get-started">
         <div className="container">
           <div className="row text-center">

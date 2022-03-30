@@ -118,6 +118,7 @@ class AboutContent extends Component {
                 width="150"
                 height="150"
               />
+              <br />
               Staying fit through life can be a challenge, especially in the
               face of illness and injury. After recovering from serious illness
               in 2009, Martin&apos;s dedication to fitness would grow

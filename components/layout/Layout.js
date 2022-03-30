@@ -4,9 +4,11 @@ import Footer from "./Footer";
 export default function Layout({ title, children }) {
   return (
     <>
-      <Navbar />
-      <main>{children}</main>
-      <Footer />
+      <div className="App">
+        <Navbar />
+        <main>{children}</main>
+        <Footer />
+      </div>
     </>
   );
 }

@@ -5,7 +5,7 @@ import Layout from "../../components/layout/Layout";
 const PrivacyPage = () => {
   return (
     <Layout>
-      <Seo title="Privacy" />
+      <Seo title="Your Privacy" />
       <section id="privacy-page" className="container privacy">
         <div id="privacy-info">
           <h3>

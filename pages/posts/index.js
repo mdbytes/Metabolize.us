@@ -10,7 +10,7 @@ const PostsPage = (data) => {
   if (posts) {
     return (
       <Layout>
-        <Seo title="Articles" />
+        <Seo title="Training Articles" />
         <section id="services" className="services">
           <div className="container">
             <PostsIntro />
@@ -22,7 +22,7 @@ const PostsPage = (data) => {
   } else {
     return (
       <Layout>
-        <Seo title="Articles" />
+        <Seo title="Training Articles" />
         <section id="services" className="services">
           <div className="container">
             <PostsIntro />

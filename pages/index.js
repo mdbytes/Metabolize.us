@@ -6,7 +6,7 @@ import Seo from "../components/layout/Seo";
 const LandingPage = () => {
   return (
     <Layout>
-      <Seo title="Home" />
+      <Seo title="Primal Strength" />
       <section id="home" className="intro-section">
         <div className="container">
           <div className="col-lg-12 intros">
