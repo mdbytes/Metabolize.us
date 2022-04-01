@@ -14,7 +14,7 @@ class AboutContent extends Component {
             </h1>
             <p>
               <Image
-                src="https://goprimalstrength.com/wp-content/uploads/2018/02/Screenshot-from-2018-02-19-13-41-25-150x150.png"
+                src="https://primal.wp.mdbytes.us/wp-content/uploads/2018/02/Screenshot-from-2018-02-19-13-41-25-150x150.png"
                 alt=""
                 width="150"
                 height="150"
@@ -113,7 +113,7 @@ class AboutContent extends Component {
             </h4>
             <p>
               <Image
-                src="https://goprimalstrength.com/wp-content/uploads/2018/05/profile_after_machines-600x600-150x150.png"
+                src="https://primal.wp.mdbytes.us/wp-content/uploads/2018/05/profile_after_machines-600x600-150x150.png"
                 alt=""
                 width="150"
                 height="150"
@@ -152,13 +152,13 @@ class AboutContent extends Component {
                     <Image
                       loading="lazy"
                       className="fl-photo-img wp-image-1339 size-full"
-                      src="https://goprimalstrength.com/wp-content/uploads/2018/06/1974-Marty-Baseball-_BW.jpg"
+                      src="https://primal.wp.mdbytes.us/wp-content/uploads/2018/06/1974-Marty-Baseball-_BW.jpg"
                       alt="1974 Marty Baseball _BW"
                       itemProp="image"
                       height="975"
                       width="1200"
                       title="1974 Marty Baseball _BW"
-                      srcSet="https://goprimalstrength.com/wp-content/uploads/2018/06/1974-Marty-Baseball-_BW.jpg 1200w, https://goprimalstrength.com/wp-content/uploads/2018/06/1974-Marty-Baseball-_BW-300x244.jpg 300w, https://goprimalstrength.com/wp-content/uploads/2018/06/1974-Marty-Baseball-_BW-768x624.jpg 768w, https://goprimalstrength.com/wp-content/uploads/2018/06/1974-Marty-Baseball-_BW-1024x832.jpg 1024w"
+                      srcSet="https://primal.wp.mdbytes.us/wp-content/uploads/2018/06/1974-Marty-Baseball-_BW.jpg 1200w, https://primal.wp.mdbytes.us/wp-content/uploads/2018/06/1974-Marty-Baseball-_BW-300x244.jpg 300w, https://primal.wp.mdbytes.us/wp-content/uploads/2018/06/1974-Marty-Baseball-_BW-768x624.jpg 768w, https://primal.wp.mdbytes.us/wp-content/uploads/2018/06/1974-Marty-Baseball-_BW-1024x832.jpg 1024w"
                       sizes="(max-width: 1200px) 100vw, 1200px"
                     />
                   </div>
@@ -179,13 +179,13 @@ class AboutContent extends Component {
                     <Image
                       loading="lazy"
                       className="fl-photo-img wp-image-1344 size-full"
-                      src="https://goprimalstrength.com/wp-content/uploads/2018/06/spalding_basketball2.jpg"
+                      src="https://primal.wp.mdbytes.us/wp-content/uploads/2018/06/spalding_basketball2.jpg"
                       alt="EPSON MFP"
                       itemProp="image"
                       height="1401"
                       width="1440"
                       title="EPSON MFP image"
-                      srcSet="https://goprimalstrength.com/wp-content/uploads/2018/06/spalding_basketball2.jpg 1440w, https://goprimalstrength.com/wp-content/uploads/2018/06/spalding_basketball2-300x292.jpg 300w, https://goprimalstrength.com/wp-content/uploads/2018/06/spalding_basketball2-768x747.jpg 768w, https://goprimalstrength.com/wp-content/uploads/2018/06/spalding_basketball2-1024x996.jpg 1024w"
+                      srcSet="https://primal.wp.mdbytes.us/wp-content/uploads/2018/06/spalding_basketball2.jpg 1440w, https://primal.wp.mdbytes.us/wp-content/uploads/2018/06/spalding_basketball2-300x292.jpg 300w, https://primal.wp.mdbytes.us/wp-content/uploads/2018/06/spalding_basketball2-768x747.jpg 768w, https://primal.wp.mdbytes.us/wp-content/uploads/2018/06/spalding_basketball2-1024x996.jpg 1024w"
                       sizes="(max-width: 1440px) 100vw, 1440px"
                     />
                   </div>
@@ -206,13 +206,13 @@ class AboutContent extends Component {
                     <Image
                       loading="lazy"
                       className="fl-photo-img wp-image-1345 size-full"
-                      src="https://goprimalstrength.com/wp-content/uploads/2018/06/miilikin_baseball2.jpg"
+                      src="https://primal.wp.mdbytes.us/wp-content/uploads/2018/06/miilikin_baseball2.jpg"
                       alt="EPSON MFP Number 2"
                       itemProp="image"
                       height="1196"
                       width="1094"
                       title="EPSON MFP image"
-                      srcSet="https://goprimalstrength.com/wp-content/uploads/2018/06/miilikin_baseball2.jpg 1094w, https://goprimalstrength.com/wp-content/uploads/2018/06/miilikin_baseball2-274x300.jpg 274w, https://goprimalstrength.com/wp-content/uploads/2018/06/miilikin_baseball2-768x840.jpg 768w, https://goprimalstrength.com/wp-content/uploads/2018/06/miilikin_baseball2-937x1024.jpg 937w"
+                      srcSet="https://primal.wp.mdbytes.us/wp-content/uploads/2018/06/miilikin_baseball2.jpg 1094w, https://primal.wp.mdbytes.us/wp-content/uploads/2018/06/miilikin_baseball2-274x300.jpg 274w, https://primal.wp.mdbytes.us/wp-content/uploads/2018/06/miilikin_baseball2-768x840.jpg 768w, https://primal.wp.mdbytes.us/wp-content/uploads/2018/06/miilikin_baseball2-937x1024.jpg 937w"
                       sizes="(max-width: 1094px) 100vw, 1094px"
                     />
                   </div>
@@ -233,13 +233,13 @@ class AboutContent extends Component {
                     <Image
                       loading="lazy"
                       className="fl-photo-img wp-image-1346 size-full"
-                      src="https://goprimalstrength.com/wp-content/uploads/2018/06/millikin_basketball2.jpg"
+                      src="https://primal.wp.mdbytes.us/wp-content/uploads/2018/06/millikin_basketball2.jpg"
                       alt="EPSON MFP Number 3"
                       itemProp="image"
                       height="1314"
                       width="1672"
                       title="EPSON MFP image"
-                      srcSet="https://goprimalstrength.com/wp-content/uploads/2018/06/millikin_basketball2.jpg 1672w, https://goprimalstrength.com/wp-content/uploads/2018/06/millikin_basketball2-300x236.jpg 300w, https://goprimalstrength.com/wp-content/uploads/2018/06/millikin_basketball2-768x604.jpg 768w, https://goprimalstrength.com/wp-content/uploads/2018/06/millikin_basketball2-1024x805.jpg 1024w"
+                      srcSet="https://primal.wp.mdbytes.us/wp-content/uploads/2018/06/millikin_basketball2.jpg 1672w, https://primal.wp.mdbytes.us/wp-content/uploads/2018/06/millikin_basketball2-300x236.jpg 300w, https://primal.wp.mdbytes.us/wp-content/uploads/2018/06/millikin_basketball2-768x604.jpg 768w, https://primal.wp.mdbytes.us/wp-content/uploads/2018/06/millikin_basketball2-1024x805.jpg 1024w"
                       sizes="(max-width: 1672px) 100vw, 1672px"
                     />
                   </div>

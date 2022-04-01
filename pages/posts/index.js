@@ -35,7 +35,7 @@ const PostsPage = (data) => {
 };
 
 export async function getStaticProps() {
-  const result = await fetch("https://goprimalstrength.com/graphql", {
+  const result = await fetch("https://primal.wp.mdbytes.us/graphql", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
