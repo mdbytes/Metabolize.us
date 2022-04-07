@@ -10,7 +10,7 @@ class Posts extends Component {
     return (
       <div id="adventures" className="service-objects">
         {this.props.posts.map((post) => (
-          <div className="row service-item-row" key={post.id}>
+          <div className="row service-item-row" key={post.postId}>
             <div className="col-lg-6 col-sm-12 col-xs-12 services-column">
               <div className="services__content">
                 <div className="icon fas fa-paper-plane d-block"></div>

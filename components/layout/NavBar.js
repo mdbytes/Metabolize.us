@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 const logo =
-  "https://goprimalstrength.com/wp-content/uploads/2018/02/bodybuilder-146791_1280_gold.png";
+  "https://primal.wp.mdbytes.us/wp-content/uploads/2018/02/bodybuilder-146791_1280_gold.png";
 
 class NavBar extends Component {
   constructor(props) {

@@ -150,7 +150,7 @@ class AboutContent extends Component {
                 >
                   <div className="fl-photo-content fl-photo-img-jpg">
                     <Image
-                      loading="lazy"
+                      loading="eager"
                       className="fl-photo-img wp-image-1339 size-full"
                       src="https://primal.wp.mdbytes.us/wp-content/uploads/2018/06/1974-Marty-Baseball-_BW.jpg"
                       alt="1974 Marty Baseball _BW"
@@ -177,7 +177,7 @@ class AboutContent extends Component {
                 >
                   <div className="fl-photo-content fl-photo-img-jpg">
                     <Image
-                      loading="lazy"
+                      loading="eager"
                       className="fl-photo-img wp-image-1344 size-full"
                       src="https://primal.wp.mdbytes.us/wp-content/uploads/2018/06/spalding_basketball2.jpg"
                       alt="EPSON MFP"
@@ -204,7 +204,7 @@ class AboutContent extends Component {
                 >
                   <div className="fl-photo-content fl-photo-img-jpg">
                     <Image
-                      loading="lazy"
+                      loading="eager"
                       className="fl-photo-img wp-image-1345 size-full"
                       src="https://primal.wp.mdbytes.us/wp-content/uploads/2018/06/miilikin_baseball2.jpg"
                       alt="EPSON MFP Number 2"
@@ -231,7 +231,7 @@ class AboutContent extends Component {
                 >
                   <div className="fl-photo-content fl-photo-img-jpg">
                     <Image
-                      loading="lazy"
+                      loading="eager"
                       className="fl-photo-img wp-image-1346 size-full"
                       src="https://primal.wp.mdbytes.us/wp-content/uploads/2018/06/millikin_basketball2.jpg"
                       alt="EPSON MFP Number 3"

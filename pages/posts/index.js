@@ -44,6 +44,7 @@ export async function getStaticProps() {
         posts {
           nodes {
             slug
+            postId
             title(format: RENDERED)
             content(format: RENDERED)
             excerpt(format: RENDERED)
