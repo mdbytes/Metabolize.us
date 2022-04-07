@@ -30,7 +30,7 @@ class Posts extends Component {
             </div>
             <div className="col-lg-6 col-sm-12 col-xs-12  services-column">
               <div className="services__pic">
-                <Link href={`/post/{post.slug}`} passHref>
+                <Link href={"/post/" + post.slug} passHref>
                   <Image
                     layout="fixed"
                     width="800"
