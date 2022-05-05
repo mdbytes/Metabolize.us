@@ -19,7 +19,7 @@ const Seo = (props) => {
       <meta property="og:url" content="https://primal-strength.vercel.app/" />
       <meta
         property="og:image"
-        content="https://primal.wp.mdbytes.us/wp-content/uploads/2022/03/Kazam_screenshot_00023.png"
+        content="https://primal.wp.mdbytes.us/wp-content/uploads/2022/05/primal-strength-media.jpeg"
       />
 
       <meta name="twitter:title" content="Primal Strength and Conditioning" />
@@ -29,7 +29,7 @@ const Seo = (props) => {
       />
       <meta
         name="twitter:image"
-        content="https://primal.wp.mdbytes.us/wp-content/uploads/2022/03/Kazam_screenshot_00023.png"
+        content="https://primal.wp.mdbytes.us/wp-content/uploads/2022/05/primal-strength-media.jpeg"
       />
       <meta name="twitter:card" content="summary_large_image" />
     </Head>
