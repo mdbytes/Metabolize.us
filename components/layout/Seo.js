@@ -6,11 +6,12 @@ const Seo = (props) => {
   return (
     <>
       <Script
+        id="google-analytics"
         strategy="lazyOnload"
         async
         src={"https://www.googletagmanager.com/gtag/js?id=UA-88714829-4"}
       ></Script>
-      <Script strategy="lazyOnload">
+      <Script id="google-tag-manager" strategy="lazyOnload">
         {`          
             window.dataLayer = window.dataLayer || []; 
             function gtag() {dataLayer.push(arguments);}
