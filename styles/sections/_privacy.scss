@@ -39,3 +39,31 @@
         }
     }
 }
+
+.page-template {
+
+    #post-214 {
+        .entry-header {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            .post-thumb {
+                width: 50%;
+
+                img {
+                    width: 100%;
+                    height: auto;
+                    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, .7);
+                    border-radius: 8px;
+                }
+            }
+
+            .entry-title {
+                display: none;
+            }
+        }
+    }
+}

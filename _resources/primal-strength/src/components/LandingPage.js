@@ -1,10 +1,8 @@
-import React, { Component } from "react";
-import { NavLink } from "react-router-dom";
+import React, { Component } from 'react';
+import { NavLink } from 'react-router-dom';
 
 class LandingPage extends Component {
-  componentDidMount() {
-    console.log("landing page props", this.props);
-  }
+  componentDidMount() {}
 
   render() {
     return (
@@ -21,7 +19,7 @@ class LandingPage extends Component {
                   Building overall health through strength and conditioning
                 </div>
                 <br />
-                <br />A site demo by{" "}
+                <br />A site demo by{' '}
                 <a href="https://mdbytes.com">
                   <span className="name-style">
                     <span className="logo-style">md </span>Bytes
@@ -32,12 +30,12 @@ class LandingPage extends Component {
               <NavLink
                 className="rounded-pill btn-rounded"
                 to={{
-                  pathname: "/posts",
+                  pathname: '/posts',
                   aboutProps: { posts: this.props.posts },
                 }}
                 exact
               >
-                Articles{" "}
+                Articles{' '}
                 <span>
                   <i className="bi bi-book"></i>
                 </span>

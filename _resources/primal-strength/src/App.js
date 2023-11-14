@@ -10,25 +10,25 @@
  */
 
 // Import React components first
-import React, { Component } from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import { WP_REST_GET_POSTS_URL } from "./config/keys";
-import axios from "axios";
+import React, { Component } from 'react';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { WP_REST_GET_POSTS_URL } from './config/keys';
+import axios from 'axios';
 
 // Import EmailJs for initiation
-import emailjs from "@emailjs/browser";
-import { EMAILJS_USER } from "./config/keys";
+import emailjs from '@emailjs/browser';
+import { EMAILJS_USER } from './config/keys';
 
 // Import main site components
-import NavBar from "./components/NavBar";
-import ScrollToTop from "./components/ScrollToTop";
-import LandingPage from "./components/LandingPage";
-import AboutPage from "./components/AboutPage";
-import PostsPage from "./components/PostsPage";
-import PostPage from "./components/PostPage";
-import ContactPage from "./components/ContactPage";
-import PrivacyPage from "./components/PrivacyPage";
-import Footer from "./components/Footer";
+import NavBar from './components/NavBar';
+import ScrollToTop from './components/ScrollToTop';
+import LandingPage from './components/LandingPage';
+import AboutPage from './components/AboutPage';
+import PostsPage from './components/PostsPage';
+import PostPage from './components/PostPage';
+import ContactPage from './components/ContactPage';
+import PrivacyPage from './components/PrivacyPage';
+import Footer from './components/Footer';
 
 /**
  * Router set up to handle traffic on the website.
@@ -38,7 +38,7 @@ import Footer from "./components/Footer";
  * @returns primary router component of the App
  */
 class App extends Component {
-  state = { posts: [], selectedPost: "" };
+  state = { posts: [], selectedPost: '' };
 
   componentDidMount() {
     let blogPosts = [];
@@ -46,12 +46,11 @@ class App extends Component {
       blogPosts = response.data;
       for (let blog of blogPosts) {
         blog.excerpt.rendered = blog.excerpt.rendered
-          .replace(/(^"|"$)/g, "")
-          .replace("[", "")
-          .replace("]", "");
+          .replace(/(^"|"$)/g, '')
+          .replace('[', '')
+          .replace(']', '');
       }
       this.setState({ posts: blogPosts });
-      console.log("state", this.state);
     });
   }
 

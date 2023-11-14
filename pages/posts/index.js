@@ -1,11 +1,12 @@
-import React from "react";
-import PostsIntro from "../../components/posts/PostsIntro";
-import Posts from "../../components/posts/Posts";
-import Layout from "../../components/layout/Layout";
-import Seo from "../../components/layout/Seo";
+import React from 'react';
+import PostsIntro from '../../components/posts/PostsIntro';
+import Posts from '../../components/posts/Posts';
+import Layout from '../../components/layout/Layout';
+import Seo from '../../components/layout/Seo';
+import axios from 'axios';
 
 const PostsPage = (data) => {
-  const posts = data.posts.nodes;
+  const posts = data.posts;
 
   if (posts) {
     return (
@@ -35,34 +36,13 @@ const PostsPage = (data) => {
 };
 
 export async function getStaticProps() {
-  const result = await fetch("https://primal.wp.mdbytes.us/graphql", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      query: `
-      query AllPostQuery {
-        posts {
-          nodes {
-            slug
-            postId
-            title(format: RENDERED)
-            content(format: RENDERED)
-            excerpt(format: RENDERED)
-            featuredImage {
-              node {
-                sourceUrl
-              }
-            }
-          }
-        }
-      }`,
-    }),
-  });
-  const json = await result.json();
+  const result = await axios.get(
+    'https://goprimalstrength.com/wp-json/wp/v2/posts?_embed'
+  );
 
   return {
     props: {
-      posts: json.data.posts,
+      posts: result.data,
     },
   };
 }

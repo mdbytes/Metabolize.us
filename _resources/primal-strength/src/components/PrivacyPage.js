@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-const axios = require("axios");
+import React, { Component } from 'react';
+const axios = require('axios');
 class PrivacyPage extends Component {
   constructor(props) {
     super(props);
@@ -16,17 +16,14 @@ class PrivacyPage extends Component {
       });
     } else {
       axios
-        .get("https://gowildthings.com/wp-json/wp/v2/posts?_embed")
+        .get('https://gowildthings.com/wp-json/wp/v2/posts?_embed')
         .then((response) => {
-          console.log(response.data);
           this.setState({ posts: response.data });
         });
     }
   }
 
-  componentDidUpdate() {
-    console.log("state:", this.state.posts);
-  }
+  componentDidUpdate() {}
 
   render() {
     return (
@@ -290,8 +287,8 @@ class PrivacyPage extends Component {
             limited exceptions may exist, but notice is always provided in such
             communications.
           </p>
-          <p>Last updated: October 5, 2018</p>{" "}
-        </div>{" "}
+          <p>Last updated: October 5, 2018</p>{' '}
+        </div>{' '}
       </section>
     );
   }

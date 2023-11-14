@@ -1,9 +1,9 @@
-import React, { Component } from "react";
-import Link from "next/link";
-import Image from "next/image";
+import React, { Component } from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
 
 const logo =
-  "https://primal.wp.mdbytes.us/wp-content/uploads/2018/02/bodybuilder-146791_1280_gold.png";
+  'https://goprimalstrength.com/wp-content/uploads/2018/02/bodybuilder-146791_1280_gold.png';
 
 class NavBar extends Component {
   constructor(props) {
@@ -12,18 +12,18 @@ class NavBar extends Component {
   }
 
   navClick = (evt) => {
-    document.querySelector("#navToggler").click();
-    if (evt.target.getAttribute("id") !== "homeLink") {
-      document.querySelector("#homeLink").classList.remove("active");
+    document.querySelector('#navToggler').click();
+    if (evt.target.getAttribute('id') !== 'homeLink') {
+      document.querySelector('#homeLink').classList.remove('active');
     } else {
-      document.querySelector("#homeLink").classList.add("active");
+      document.querySelector('#homeLink').classList.add('active');
     }
   };
 
   componentDidMount() {
     let pattern = /\/$/;
     if (!pattern.test(window.location.href)) {
-      document.querySelector("#homeLink").classList.remove("active");
+      document.querySelector('#homeLink').classList.remove('active');
     }
   }
   render() {

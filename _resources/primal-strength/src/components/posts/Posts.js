@@ -1,11 +1,9 @@
-import React, { Component } from "react";
-import { NavLink } from "react-router-dom";
-import parse from "html-react-parser";
+import React, { Component } from 'react';
+import { NavLink } from 'react-router-dom';
+import parse from 'html-react-parser';
 
 class Posts extends Component {
-  componentDidMount() {
-    console.log("adventures props", this.props);
-  }
+  componentDidMount() {}
 
   render() {
     return (
@@ -22,7 +20,7 @@ class Posts extends Component {
                 <div className="learn-btn">
                   <NavLink
                     to={{
-                      pathname: "/post",
+                      pathname: '/post',
                       aboutProps: {
                         posts: this.props.posts,
                         postId: post.id,
@@ -44,7 +42,7 @@ class Posts extends Component {
               <div className="services__pic">
                 <NavLink
                   to={{
-                    pathname: "/post",
+                    pathname: '/post',
                     aboutProps: {
                       posts: this.props.posts,
                       postId: post.id,
@@ -53,7 +51,7 @@ class Posts extends Component {
                   exact
                 >
                   <img
-                    src={post._embedded["wp:featuredmedia"][0].source_url}
+                    src={post._embedded['wp:featuredmedia'][0].source_url}
                     alt="UI Design"
                     className="img-fluid"
                   />

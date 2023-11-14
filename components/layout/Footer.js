@@ -1,14 +1,14 @@
-import React, { Component } from "react";
-import Link from "next/link";
-import Image from "next/image";
+import React, { Component } from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
 
 const logo =
-  "https://primal.wp.mdbytes.us/wp-content/uploads/2018/02/bodybuilder-146791_1280_gold.png";
+  'https://goprimalstrength.com/wp-content/uploads/2018/02/bodybuilder-146791_1280_gold.png';
 
 class Footer extends Component {
   constructor(props) {
     super(props);
-    this.companyName = "WildThings Photography";
+    this.companyName = 'WildThings Photography';
     this.backToTop = this.backToTop.bind(this);
   }
 
@@ -42,7 +42,7 @@ class Footer extends Component {
             <div className="row text-white justify-content-center ">
               <div className="col-12 col-sm-6 col-lg-4">
                 <div className="footer-sm">
-                  <h5 style={{ textAlign: "center" }} className="">
+                  <h5 style={{ textAlign: 'center' }} className="">
                     Social Media Links
                   </h5>
                   <p></p>
@@ -92,7 +92,7 @@ class Footer extends Component {
                 </div>
               </div>
               <div id="mascot-container" className="col-12 col-sm-6 col-lg-4">
-                <h5 style={{ textAlign: "center" }} className="company-font">
+                <h5 style={{ textAlign: 'center' }} className="company-font">
                   Primal Strength & Conditioning
                 </h5>
                 <br />
@@ -133,17 +133,17 @@ class Footer extends Component {
               <div className="row text-center text-white">
                 <div className="col-12">
                   <div className="footer-bottom__copyright">
-                    &copy; Copyright 2022{" "}
+                    &copy; Copyright 2022{' '}
                     <span className="company-font">
                       Primal Strength & Conditioning
-                    </span>{" "}
-                    | Created by{" "}
+                    </span>{' '}
+                    | Created by{' '}
                     <a
                       href="https:/mdbytes.com"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      {" "}
+                      {' '}
                       <span className="logo-style">md</span>
                       <span className="name-style">Bytes</span>
                     </a>

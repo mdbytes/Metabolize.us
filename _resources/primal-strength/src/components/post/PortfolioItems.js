@@ -1,6 +1,6 @@
-import React, { Component } from "react";
-import PortfolioDetail from "./PortfolioDetail";
-import PortfolioItem from "./PortfolioItem";
+import React, { Component } from 'react';
+import PortfolioDetail from './PortfolioDetail';
+import PortfolioItem from './PortfolioItem';
 
 const dt = new PortfolioDetail();
 
@@ -11,9 +11,7 @@ class PortfolioItems extends Component {
     dt.elements = this.props.portfolioDetails.elements;
   }
 
-  componentDidMount() {
-    console.log("portfolio items props", this.props);
-  }
+  componentDidMount() {}
   render() {
     return (
       <div className="row portfolio-items">

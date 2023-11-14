@@ -1,52 +1,48 @@
 //import Image from "next/image";
-import parse from "html-react-parser";
-import Layout from "../../components/layout/Layout";
-import Seo from "../../components/layout/Seo";
-import Link from "next/link";
+import parse from 'html-react-parser';
+import Layout from '../../components/layout/Layout';
+import Seo from '../../components/layout/Seo';
+import Link from 'next/link';
+import axios from 'axios';
 
 export default function Post(data) {
-  const post = data.post;
+  const post = data.post[0];
 
-  let postIdString = "";
-  let mainContent = "";
+  let postIdString = '';
+  let mainContent = '';
 
   if (post) {
-    postIdString = "post-" + post.postId;
-    const content = post.content;
+    postIdString = 'post-' + post.id;
+    const content = post.content?.rendered ? post.content.rendered : '';
 
-    mainContent = content.replace("[", "").replace("]", "");
+    mainContent = content.replace('[', '').replace(']', '');
   }
 
   return (
     <Layout>
-      <Seo title={`Article | ${post.title}`} />
+      <Seo title={`Article | ${post.title.rendered}`} />
       <section id="post" className="post">
         <div className="container">
-          <div className="row text-center mt-5">
-            <h1 className="display-3 fw-bold text-capitalize">
-              Featured Article
-            </h1>
-            <div className="heading-line"></div>
-          </div>
+          <div className="row text-center mt-5 mb-5"></div>
         </div>
 
-        <div className="container post-text" id={postIdString}>
+        <div className="container post-text mt-5 mb-5" id={postIdString}>
           <div>
-            <h3 className="post-title">{parse(post.title)}</h3>
+            <h3 className="post-title">{parse(post.title.rendered)}</h3>
           </div>
           <p
             style={{
-              fontStyle: "italic",
-              fontSize: "14px",
-              width: "60%",
-              margin: "2rem auto",
+              fontStyle: 'italic',
+              fontSize: '14px',
+              width: '60%',
+              margin: '2rem auto',
             }}
           >
             The material below is not intended to replace the advice or
             attention of health care professionals. Any changes in your
             nutrition or exercise should be made only with the advice and
             consent of your doctor. Additional disclosures and disclaimers can
-            be found here:{" "}
+            be found here:{' '}
             <Link href="/privacy" passHref>
               Legal Disclosures.
             </Link>
@@ -59,67 +55,23 @@ export default function Post(data) {
 }
 
 export async function getStaticProps(context) {
-  const res = await fetch("https://primal.wp.mdbytes.us/graphql", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      query: `
-                query SinglePost($id: ID!, $idType: PostIdType!) {
-                    post(id: $id, idType: $idType) {
-                        postId
-                        title
-                        slug
-                        content
-                        featuredImage {
-                            node {
-                                sourceUrl
-                            }
-                        }
-                    }
-                }
-            `,
-      variables: {
-        id: context.params.slug,
-        idType: "SLUG",
-      },
-    }),
-  });
-
-  const json = await res.json();
+  const result = await axios.get(
+    `https://goprimalstrength.com/wp-json/wp/v2/posts?slug=${context.params.slug}`
+  );
 
   return {
     props: {
-      post: json.data.post,
+      post: result.data,
     },
   };
 }
 
 export async function getStaticPaths() {
-  const res = await fetch("https://primal.wp.mdbytes.us/graphql", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      query: `
-            query AllPostsQuery {
-                posts {
-                    nodes {
-                        slug
-                        content
-                        title
-                        featuredImage {
-                            node {
-                                sourceUrl
-                            }
-                        }
-                    }
-                }
-            }
-        `,
-    }),
-  });
+  const result = await axios.get(
+    'https://goprimalstrength.com/wp-json/wp/v2/posts'
+  );
 
-  const json = await res.json();
-  const posts = json.data.posts.nodes;
+  const posts = result.data;
 
   const paths = posts.map((post) => ({
     params: { slug: post.slug },

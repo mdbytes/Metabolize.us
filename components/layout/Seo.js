@@ -1,6 +1,6 @@
-import React from "react";
-import Head from "next/head";
-import Script from "next/script";
+import React from 'react';
+import Head from 'next/head';
+import Script from 'next/script';
 
 const Seo = (props) => {
   return (
@@ -9,11 +9,11 @@ const Seo = (props) => {
         id="google-analytics"
         strategy="lazyOnload"
         async
-        src={"https://www.googletagmanager.com/gtag/js?id=UA-88714829-4"}
+        src={'https://www.googletagmanager.com/gtag/js?id=UA-88714829-4'}
       ></Script>
       <Script id="google-tag-manager" strategy="lazyOnload">
-        {`          
-            window.dataLayer = window.dataLayer || []; 
+        {`
+            window.dataLayer = window.dataLayer || [];
             function gtag() {dataLayer.push(arguments);}
             gtag('js', new Date()); gtag('config', 'UA-88714829-4');
         `}
@@ -34,7 +34,7 @@ const Seo = (props) => {
         <meta property="og:url" content="https://primal-strength.vercel.app/" />
         <meta
           property="og:image"
-          content="https://primal.wp.mdbytes.us/wp-content/uploads/2022/05/primal-strength-media.jpeg"
+          content="https://goprimalstrength.com/wp-content/uploads/2022/05/primal-strength-media.jpeg"
         />
 
         <meta name="twitter:title" content="Primal Strength and Conditioning" />
@@ -44,7 +44,7 @@ const Seo = (props) => {
         />
         <meta
           name="twitter:image"
-          content="https://primal.wp.mdbytes.us/wp-content/uploads/2022/05/primal-strength-media.jpeg"
+          content="https://goprimalstrength.com/wp-content/uploads/2022/05/primal-strength-media.jpeg"
         />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>

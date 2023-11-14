@@ -2,11 +2,11 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ["primal.wp.mdbytes.us", "goprimalstrength.com"],
+    domains: ['goprimalstrength.com', 'primal-strength.vercel.app'],
   },
   i18n: {
-    locales: ["en"],
-    defaultLocale: "en",
+    locales: ['en'],
+    defaultLocale: 'en',
   },
 };
 

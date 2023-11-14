@@ -1,11 +1,10 @@
-import React, { Component } from "react";
-import PostsIntro from "./posts/PostsIntro";
-import Posts from "./posts/Posts";
+import React, { Component } from 'react';
+import PostsIntro from './posts/PostsIntro';
+import Posts from './posts/Posts';
 
 class PostsPage extends Component {
   componentDidMount() {
-    console.log("PostsPage Props: ", this.props);
-    document.querySelector("#homeLink").classList.remove("active");
+    document.querySelector('#homeLink').classList.remove('active');
   }
 
   componentDidUpdate() {}

@@ -8,26 +8,44 @@
  *
  */
 
-@use "../custom"as *;
-@use "../components/mixins"as *;
+@use '../custom' as *;
+@use '../components/mixins' as *;
 
-.post {
-
+.post,
+.single {
   animation: fadeIn;
   animation-duration: 3s;
   display: flex;
   flex-direction: column;
 
+  .site-main {
+    max-width: 1400px;
+    background-color: $white;
+
+    article.post {
+      max-width: 1000px;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+
+  a {
+    text-decoration: none !important;
+
+    em {
+      text-decoration: none;
+    }
+  }
+
   .post-text {
-    background-color: rgba(#fff, .85);
+    background-color: rgba(#fff, 0.85);
     padding: 3rem 1rem;
     border-radius: 8px;
     width: 90%;
     margin: 0 auto;
 
     .container {
-      max-width: 1200px;
-
+      max-width: 1000px;
     }
 
     h1,
@@ -40,7 +58,6 @@
       width: 100%;
       max-width: 1000px;
       margin: 1rem auto;
-
     }
 
     p {
@@ -65,183 +82,183 @@
       max-width: 800px;
       margin: 2rem auto;
       padding-left: 2rem;
-      border-left: .5rem solid rgba($primary, .6);
+      border-left: 0.5rem solid rgba($primary, 0.6);
       border-radius: 8px;
       font-style: italic;
     }
-
   }
 
-}
+  .entry-header {
+    .post-thumb {
+      img {
+        width: 50% !important;
+        margin-bottom: 3rem;
+        border-radius: 8px;
+        transform: scale(0.9) rotate(-5deg);
+        box-shadow: 2rem 2rem 2rem rgba(0, 0, 0, 0.7);
+        transition: all 2s;
 
-
-#post-1 {
-
-  p img {
-    display: block;
-    margin: 0 auto;
-
-    max-width: 100%;
-    height: auto;
+        &:hover {
+          transform: scale(1.2) rotate(0deg);
+          box-shadow: 2rem -2rem 2rem rgba(0, 0, 0, 0.7);
+        }
+      }
+    }
   }
 
+  .fl-row-content-wrap,
+  .fl-module,
+  .fl-module-content,
+  .fl-row,
+  .fl-row-content {
+    margin-left: 0;
+    padding-left: 0;
 
-}
+    margin-right: 0;
+    padding-right: 0;
 
+    max-width: 100% !important;
+  }
 
-#post-757 {
+  .navigation.post-navigation {
+    background-color: $white;
+    border: none;
 
-  .container {
-    max-width: 1000px;
-
-    img {
-      width: 20%;
-      height: auto;
+    a {
+      border-bottom: none;
+      font-size: 2rem;
       margin-bottom: 2rem;
-      float: left;
-      margin-right: 1.5rem;
-
-    }
-
-    img+p+h5 {
-      clear: both;
-      float: none;
-    }
-
-  }
-
-
-}
-
-#post-1299 {
-
-  p {
-    img {
-      float: left;
-      margin-bottom: 2rem;
-      margin-right: 2rem;
+      color: $primary;
     }
   }
 
-  h5 {
-    clear: both;
-    float: none;
-  }
-
-  table {
-    margin-left: 10%;
-  }
-
-
-}
-
-#post-883 {
-
-  >div.container {
-    max-width: 1000px;
-  }
-
-  >div.container>img {
-    width: 70%;
-    display: block;
-    margin: 2rem auto;
-    height: auto;
-    max-width: 700px;
-    float: none;
-    clear: both;
-  }
-
-  >div.container>img+p {
-    clear: both;
-    float: none;
-  }
-
-
-
-  #diff-table th,
-  #diff-table td {
-    padding: 1rem 0 1rem 1rem !important;
-    width: 25%;
-  }
-
-  #training-table>tbody>tr:nth-child(1)>th {
-    border-right: none;
-  }
-
-  #diff-table tr td:nth-child(2) {
-    border-left: 2px solid black;
-  }
-
-  .row>h4 {
-    margin-top: 2rem;
+  .no-comments {
+    color: $primary;
     text-align: center;
+    padding-bottom: 2rem;
   }
 
-  #diff-table,
-  #training-table {
-    margin: 1rem 0 !important;
-    max-width: 995px !important;
+  #post-1 {
+    .photo-row {
+      max-width: 800px;
+      margin: 0 auto;
+      img {
+        width: 30%;
+        min-width: 325px;
+        box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.7);
+        border-radius: 8px;
+        margin-bottom: 2rem;
+        transform: scale(0.9);
+        transition: all 2s;
+
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+    #before-image {
+      img {
+        width: 30%;
+        min-width: 325px;
+        box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.7);
+        border-radius: 8px;
+        margin-bottom: 2rem;
+        transform: scale(0.9);
+        transition: all 2s;
+
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+
+    #after-image {
+      img {
+        width: 50%;
+        min-width: 325px;
+        box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.7);
+        border-radius: 8px;
+        margin-bottom: 2rem;
+        transform: scale(0.9);
+        transition: all 2s;
+
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
   }
 
-  #training-table th,
-  #training-table td {
-    width: 30%;
+  #post-757 {
+    > div.container > img {
+      margin-left: 8%;
+    }
   }
 
-  #training-table>tbody>tr:nth-child(1),
-  #training-table>tbody>tr:nth-child(8),
-  #training-table>tbody>tr:nth-child(15) {
-    padding-top: 2rem !important;
-    border-top: 2px solid black;
-    margin-top: 2rem !important;
+  #post-1299 {
+    table {
+      margin-left: 8%;
+    }
   }
 
-  #training-table>tbody>tr:nth-child(2),
-  #training-table>tbody>tr:nth-child(9),
-  #training-table>tbody>tr:nth-child(16) {
-    padding-bottom: 2rem !important;
-    border-bottom: 2px solid black;
+  #post-883 {
+    img {
+      display: block;
+      margin: 2rem auto;
+      width: 40%;
+      height: auto;
+    }
+
+    table {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    #training-table {
+      tr {
+        padding-top: 1rem;
+      }
+    }
   }
 
+  #post-808 {
+    img {
+      max-width: 40%;
+      height: auto;
+    }
 
-}
+    #post-808 > div.container > p:nth-child(22) > a > img {
+      float: left;
 
-#post-808 {
-  >div.container>p:nth-child(12)>a>img {
+      margin-right: 1rem;
+      margin-bottom: 1rem;
+    }
+  }
+
+  #post-808 > div.container > p:nth-child(22) > a > img {
+    float: left;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  #post-1120 > div.container > a > img {
     max-width: 60%;
-    clear: both;
-    float: none;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+  }
+
+  #post-1120 > div.container > p:nth-child(6) > img,
+  #post-1120 > div.container > p:nth-child(3) > img {
+    float: left;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  #post-310 > div.container > p:nth-child(6) > a > img {
+    width: 40%;
+    height: auto;
     display: block;
     margin: 2rem auto;
-    height: auto;
   }
-
-
-  >div.container>p:nth-child(22),
-  >div.container>p:nth-child(15) {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-  }
-
-  >div.container>p:nth-child(22) img,
-  >div.container>p:nth-child(15) img {
-    height: 150px;
-    margin-right: 2rem;
-    width: auto;
-  }
-
-  >div.container>p:nth-child(24)>a>img {
-    display: block;
-    width: 60%;
-    margin: 1.5rem auto;
-  }
-
-  >div.container>ul {
-    display: block;
-    margin-left: 10%;
-  }
-
-
-
 }
