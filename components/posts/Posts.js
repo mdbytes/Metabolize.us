@@ -44,7 +44,9 @@ class Posts extends Component {
               <div className="services__pic">
                 <Link href={'/post/' + post.slug} passHref>
                   <Image
-                    fill
+                    layout="fixed"
+                    height={300}
+                    width={600}
                     src={post['_embedded']['wp:featuredmedia'][0]['source_url']}
                     alt="UI Design"
                     className="img-fluid"
