@@ -29,7 +29,7 @@ body {
 .display-2 {
   margin: 1rem 0;
   text-transform: capitalize;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Acme', sans-serif;
 
   &--intro {
     display: inline-block;
@@ -130,4 +130,13 @@ body {
 button.gprev.gbtn,
 button.gnext.gbtn {
   background-color: $secondary;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Acme', sans-serif;
 }

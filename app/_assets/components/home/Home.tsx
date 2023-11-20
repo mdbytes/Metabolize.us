@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
-import homeImage from '../../images/home/home-deadlift.png';
-
 const LandingPage = () => {
   return (
     <div className="app">
@@ -17,19 +15,11 @@ const LandingPage = () => {
                   <br />
                 </h1>
                 <span className="display-2--description lh-base">
-                  <div id="tagline">
-                    Health and longevity through
-                    <br /> strength and conditioning
-                  </div>
-                  <br />
-                  <br />A site demo by{' '}
-                  <a href="https://mdbytes.com">
-                    <span className="name-style">
-                      <span className="logo-style">MD </span>Bytes
-                    </span>
-                  </a>
+                  <p className="tagline">
+                    Building vitality and longevity with strength training and
+                    conditioning.
+                  </p>
                 </span>
-
                 <Link href="/posts" passHref>
                   <div className="rounded-pill btn-rounded">
                     Articles{' '}
@@ -40,14 +30,17 @@ const LandingPage = () => {
                 </Link>
               </div>
             </div>
-            <div className="col-lg-6 intros photo">
-              <Image
-                src={homeImage}
-                alt="home page"
-                height={400}
-                width={400}
-                className="animate__animated animate__zoomInDown"
-              />
+            <div className="col-lg-6 intros right-side">
+              <span className="display-2--description lh-base">
+                <p>
+                  A site demo by&nbsp;
+                  <a href="https://mdbytes.com">
+                    <span className="name-style">
+                      <span className="logo-style">MD </span>Bytes
+                    </span>
+                  </a>
+                </p>
+              </span>
             </div>
           </div>
         </div>
