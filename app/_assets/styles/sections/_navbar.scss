@@ -1,0 +1,164 @@
+/**
+ * Filename:  _navbar.scss
+ * Author:    Martin Dwyer
+ * Purpose:   Provides styling for the NavBar component
+ * Date Mod:  December 8, 2021
+ *
+ */
+
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.site-logo-img img {
+  height: 36px;
+  width: auto;
+}
+
+.site-header {
+  border-bottom: none;
+
+  .ast-desktop-header {
+    border-bottom: none;
+  }
+
+  .ast-mobile-header {
+    border-bottom: none;
+
+    .ast-main-header-wrap {
+      border-bottom: none;
+    }
+  }
+}
+
+.site-primary-header-wrap,
+.ast-primary-header-bar {
+  background-color: $nav-background !important;
+  border: none !important;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+  max-width: 100%;
+}
+
+.ast-primary-header-bar a {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: none;
+}
+
+.site-title a,
+.site-title a:focus,
+.site-title a:hover,
+.site-title a:visited {
+  color: #fff;
+}
+
+nav {
+  background-color: $nav-background;
+
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+    .company-font {
+      padding-left: 1.5rem;
+      font-size: 1.2rem;
+
+      align-self: center;
+    }
+
+    .logo-font {
+      @include logoFontFamily;
+      align-self: center;
+      padding-left: 1rem;
+
+      height: 1.15rem;
+      font-weight: bold;
+      margin-bottom: 0.75rem;
+    }
+
+    img {
+      align-self: center;
+      height: 1.5rem;
+      width: auto;
+    }
+  }
+
+  .logo-style {
+    font-family: 'MuseoModerno', cursive;
+    font-size: 2.5rem;
+    font-weight: 800;
+    letter-spacing: -0.1em;
+    color: $primary;
+  }
+
+  .name-style {
+    font-family: 'Alegreya Sans SC', sans-serif;
+
+    font-size: 2.15em;
+    font-weight: 800;
+    color: $gray-500;
+    letter-spacing: -0.05em;
+    padding-left: 0.5rem;
+  }
+
+  li {
+    padding: 0 0.7rem;
+
+    .nav-link {
+      color: $white !important;
+      text-transform: capitalize;
+      font-weight: 200;
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      &.active {
+        color: $white;
+        font-weight: 800;
+        text-decoration: underline;
+        text-underline-offset: 0.5rem;
+      }
+    }
+  }
+}
+
+li.menu-item {
+  margin-bottom: 1rem;
+}
+
+li.current-menu-item {
+  border-bottom: 1px solid $secondary;
+}
+
+.menu-toggle {
+  text-decoration: none;
+  color: $secondary;
+
+  .mobile-menu-toggle-icon {
+    text-decoration: none;
+    color: $secondary;
+
+    span {
+      text-decoration: none;
+      color: $secondary;
+
+      svg {
+        filter: invert(61%) sepia(46%) saturate(400%) hue-rotate(53deg)
+          brightness(99%) contrast(89%);
+      }
+    }
+  }
+}
+
+#ast-hf-mobile-menu {
+  li {
+    a {
+      color: $primary !important;
+      text-decoration: none;
+    }
+  }
+}
