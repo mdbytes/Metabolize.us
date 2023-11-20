@@ -27,20 +27,13 @@ export function PostPage(props: PostPageProps) {
           <div>
             <h3 className="post-title">{parse(post.title.rendered)}</h3>
           </div>
-          <p
-            style={{
-              fontStyle: 'italic',
-              fontSize: '14px',
-              width: '60%',
-              margin: '2rem auto',
-            }}
-          >
+          <p id="intro-text">
             The material below is not intended to replace the advice or
             attention of health care professionals. Any changes in your
             nutrition or exercise should be made only with the advice and
             consent of your doctor. Additional disclosures and disclaimers can
             be found here:{' '}
-            <Link href="/privacy" passHref>
+            <Link href="/terms" passHref>
               Legal Disclosures.
             </Link>
           </p>
