@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
-import homeImage from '../../_assets/images/home/home-deadlift.png';
+import homeImage from '../../images/home/home-deadlift.png';
 
 const LandingPage = () => {
   return (

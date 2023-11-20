@@ -8,7 +8,6 @@ import { PostsIntro } from './PostsIntro';
 export default async function PostsPage() {
   const posts = await getAllPosts();
 
-  console.log(posts);
   for (let post of posts) {
     if (!post.excerpt.rendered) {
       post.excerpt.rendered = post.content.rendered.slice(0, 250);

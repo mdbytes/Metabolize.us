@@ -13,7 +13,7 @@ export const Contact = () => {
                 <div className="cta-info w-100">
                   <h3 className="display-4">Next steps?</h3>
                   <p style={{ color: 'black' }}>
-                    Let's get started on an awesome website for you!
+                    Lets get started on an awesome website for you!
                   </p>
                   <ul className="fa-ul">
                     <li>
