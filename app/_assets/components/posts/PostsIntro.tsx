@@ -15,7 +15,7 @@ export const PostsIntro = () => {
           about one of the articles, or are seeking advice, please &nbsp;
           <Link href="/contact">contact Martin</Link>. &nbsp; &nbsp; Please also
           be sure to review our limitations and disclaimers with the rest of our{' '}
-          <Link href="/privacy">legal disclosures</Link>.
+          <Link href="/terms">legal disclosures</Link>.
         </p>
       </div>
     </React.Fragment>

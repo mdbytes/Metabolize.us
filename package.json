@@ -6,17 +6,22 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "compile:sass": "sass --watch app/_assets/styles/scss:app/_assets/styles/css",
+    "minify:css": "css-minify -d app/_assets/styles/css -o app/_assets/styles/css"
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "animate.css": "^4.1.1",
+    "autoprefixer": "^10.4.0",
     "axios": "^1.6.2",
     "bootstrap": "^5.3.2",
     "bootstrap-icons": "^1.11.1",
+    "css-minify": "^2.0.0",
     "dotenv": "^16.3.1",
     "html-react-parser": "^5.0.6",
     "next": "14.0.2",
+    "postcss-cli": "^9.0.2",
     "react": "^18",
     "react-dom": "^18",
     "sass": "^1.69.5"

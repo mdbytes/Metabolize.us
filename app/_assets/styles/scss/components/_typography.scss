@@ -140,3 +140,13 @@ h5,
 h6 {
   font-family: 'Acme', sans-serif;
 }
+
+a {
+  color: blue;
+  font-weight: 600;
+  text-underline-offset: 0.2rem;
+
+  &:hover {
+    color: purple;
+  }
+}

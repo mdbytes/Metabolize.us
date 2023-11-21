@@ -1,6 +1,6 @@
 #PrimalStrength
 
-PrimalStrength adapts our ReactSiteTemplate to use the WordPress REST API for post data from a WordPress CMS back end. Features of the application include:
+PrimalStrength adapts the Primal Strength WordPress website to Next.Js using the WordPress REST API to interact with the WordPress CMS back end. Features of the application include:
 
 1.  Upon initiation, the application downloads all of the posts from the blog as an array of objects.
 

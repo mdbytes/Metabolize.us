@@ -1,9 +1,7 @@
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
-import './_assets/styles/main.scss';
-
 import { Navbar } from './_assets/components/layout/NavBar';
 import { Footer } from './_assets/components/layout/Footer';
+import './_assets/styles/scss/main.scss';
 
 const dotenv = require('dotenv');
 dotenv.config();
