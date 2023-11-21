@@ -16,8 +16,6 @@ PrimalStrength adapts the Primal Strength WordPress website to Next.Js using the
 
 7.  This application offers WordPress content creators the ability to step away from preset theme frameworks. Future work will focus on expanding functionality for content creators to a) directly create post content online, b) edit or modify content directly, and c) manage users online.
 
-This application is currently deployed at [Vercel](https://primal-strength.vercel.app/)
+This application is currently deployed at [Vercel](https://primal-strength.vercel.app/) using Next.Js v14.0.2 with React v18.2.0. Sass is utilized for component styling.
 
-#####NOTE: As of November, 2023, this project is being updated to reflect the latest React and Next.js technologies.
-
-Updated November 2023.
+Updated November 21, 2023.
