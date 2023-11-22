@@ -1,7 +1,9 @@
 'use client';
 import { usePathname } from 'next/navigation';
+import Image from 'next/image';
 import Link from 'next/link';
 import React, { MutableRefObject, useEffect, useRef } from 'react';
+import bodybuilderIcon from '../../images/bodybuilder-icon.webp';
 
 type InputRef = MutableRefObject<HTMLInputElement> | MutableRefObject<null>;
 type ButtonRef = MutableRefObject<HTMLButtonElement> | MutableRefObject<null>;
@@ -61,15 +63,15 @@ export const Navbar = () => {
 
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark menu fixed-top">
         <div className="container-fluid">
-          <a className="navbar-brand" href="/">
-            {/* <img
-              src={logo}
+          <a className="navbar-brand" href="/" style={{ marginLeft: '2rem' }}>
+            <Image
+              src={bodybuilderIcon}
+              height={90}
+              width={45}
               alt="site logo in navbar"
-              className="site-logo"
-              height="32"
-            /> */}
+            />
           </a>
           <button
             ref={navTogglerRef}

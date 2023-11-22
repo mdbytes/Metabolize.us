@@ -13,3 +13,20 @@ export async function getPostBySlug(slug: string) {
 
   return result.data[0];
 }
+
+export async function getFeaturedPosts() {
+  const url = process.env.WP_REST_GET_POSTS_URL as string;
+  const result = await axios.get(url);
+
+  let featuredPosts = [];
+
+  let count = 0;
+
+  for (let post of result.data) {
+    featuredPosts.push(post);
+    count++;
+    if (count === 3) break;
+  }
+
+  return featuredPosts;
+}

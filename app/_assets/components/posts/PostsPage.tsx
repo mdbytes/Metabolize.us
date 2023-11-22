@@ -4,6 +4,7 @@ import parse from 'html-react-parser';
 import Image from 'next/image';
 import { getAllPosts } from '../../utils/wp-rest-api';
 import { PostsIntro } from './PostsIntro';
+import { Post } from '@/types';
 
 export default async function PostsPage() {
   const posts = await getAllPosts();
@@ -23,7 +24,6 @@ export default async function PostsPage() {
             <div className="row service-item-row" key={post.id}>
               <div className="col-lg-6 col-sm-12 col-xs-12 services-column">
                 <div className="services__content">
-                  <div className="icon fas fa-paper-plane d-block"></div>
                   <h3 className="display-3--title">
                     {parse(post.title.rendered)}
                   </h3>

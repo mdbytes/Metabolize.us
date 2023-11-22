@@ -1,3 +1,5 @@
+import { StaticImageData } from 'next/image';
+
 type Post = {
   id: number;
   date: string;
@@ -77,4 +79,10 @@ type PostsRenderedProps = {
 
 type PostPageProps = {
   post: Post;
+};
+
+type slide = {
+  src: StaticImageData;
+  slideTitle: string;
+  href: string;
 };

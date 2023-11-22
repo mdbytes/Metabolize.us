@@ -10,8 +10,11 @@
 // IMPORT BOOTSTRAP 5
 @import '../../../../node_modules/bootstrap/scss/bootstrap.scss';
 
-//  IMPORT BOOSTRAP ICONS
+// IMPORT BOOSTRAP ICONS
 @import '../../../../node_modules/bootstrap-icons/font/bootstrap-icons.scss';
+
+// IMPORT FONT AWESOME ICONS
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
 
 // Import font families
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
@@ -112,3 +115,21 @@ $warning: $yellow;
 $danger: $red;
 $light: $gray-100;
 $dark: $gray-900;
+
+.btn-primary {
+  background-color: $primary;
+  border-color: $primary;
+  color: $white;
+
+  box-shadow: 0 0 1rem rgba($white, 0.8);
+
+  transition: 1s;
+
+  &:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 2rem rgba($white, 0.8);
+    background-color: $primary;
+    border-color: $primary;
+    color: $white;
+  }
+}

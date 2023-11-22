@@ -1,14 +1,18 @@
 import type { Metadata } from 'next';
 import { Navbar } from './_assets/components/layout/NavBar';
 import { Footer } from './_assets/components/layout/Footer';
+import siteIcon from './_assets/images/favicon.ico';
 import './_assets/styles/scss/main.scss';
 
 const dotenv = require('dotenv');
 dotenv.config();
 
 export const metadata: Metadata = {
+  icons: [
+    'https://goprimalstrength.com/wp-content/themes/PrimalPressMD/assets/images/bodybuilder-icon.webp',
+  ],
   metadataBase: new URL('https://primal-strength.vercel.app'),
-  title: 'Primal Strength',
+  title: 'Home | Primal Strength',
   description:
     'Primal Strength Training and Conditioning, a website dedicated to strength, conditioning and longevity.',
   keywords: 'power lifting conditioning weight lifting fitness longevity',

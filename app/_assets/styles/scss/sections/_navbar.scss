@@ -56,6 +56,10 @@
 nav {
   background-color: $nav-background;
 
+  @include media-breakpoint-up(lg) {
+    height: 4rem;
+  }
+
   .navbar-brand {
     display: flex;
     align-items: center;
