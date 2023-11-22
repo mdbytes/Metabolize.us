@@ -2,14 +2,14 @@
 
 import { useEffect, useRef, MutableRefObject } from 'react';
 import Image from 'next/image';
-import { slide } from '@/types';
 import React from 'react';
+import { Slide } from '../../../../types';
 
 type HtmlButtonRef =
   | MutableRefObject<HTMLButtonElement>
   | MutableRefObject<null>;
 
-export default function HomeSlider({ slides }: { slides: slide[] }) {
+export default function HomeSlider({ slides }: { slides: Slide[] }) {
   let nextButtonRef: HtmlButtonRef = useRef(null);
 
   useEffect(() => {

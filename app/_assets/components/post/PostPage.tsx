@@ -1,9 +1,8 @@
 import Link from 'next/link';
 import parse from 'html-react-parser';
+import { PostPageProps } from '../../../../types';
 
 export function PostPage(props: PostPageProps) {
-  console.log('post', props.post);
-
   let postIdString = '';
   let mainContent = '';
 
@@ -12,7 +11,6 @@ export function PostPage(props: PostPageProps) {
   if (post) {
     postIdString = 'post-' + post.id;
     const content = post?.content?.rendered ? post.content.rendered : '';
-    console.log(post);
     mainContent = content.replace('[', '').replace(']', '');
   }
 

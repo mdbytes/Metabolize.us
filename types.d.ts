@@ -81,7 +81,7 @@ type PostPageProps = {
   post: Post;
 };
 
-type slide = {
+type Slide = {
   src: StaticImageData;
   slideTitle: string;
   href: string;

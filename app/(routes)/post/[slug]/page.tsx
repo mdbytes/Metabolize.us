@@ -4,12 +4,12 @@ import { PostPage } from '../../../_assets/components/post/PostPage';
 import { Metadata } from 'next';
 import Link from 'next/link';
 import React from 'react';
-import { Post } from '@/types';
+import { Post } from '../../../../types';
 
 export async function generateStaticParams() {
-  let posts = await getAllPosts();
+  let posts: Post[] = await getAllPosts();
 
-  let staticParams = [];
+  let staticParams: { slug: string }[] | undefined = [];
 
   for (let post of posts) {
     staticParams.push({ slug: post.slug });

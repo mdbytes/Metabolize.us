@@ -4,7 +4,7 @@ import parse from 'html-react-parser';
 import Image from 'next/image';
 import { getAllPosts } from '../../utils/wp-rest-api';
 import { PostsIntro } from './PostsIntro';
-import { Post } from '@/types';
+import { Post } from '../../../../types';
 
 export default async function PostsPage() {
   const posts = await getAllPosts();

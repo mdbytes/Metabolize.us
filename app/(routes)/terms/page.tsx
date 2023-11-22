@@ -1,3 +1,4 @@
+import React from 'react';
 import TermsPage from '../../_assets/components/terms/TermsPage';
 import { Metadata } from 'next';
 

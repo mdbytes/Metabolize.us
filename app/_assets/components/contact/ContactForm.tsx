@@ -12,10 +12,11 @@ import emailjs from '@emailjs/browser';
 type ButtonRef = MutableRefObject<HTMLButtonElement> | MutableRefObject<null>;
 type DivRef = MutableRefObject<HTMLDivElement> | MutableRefObject<null>;
 type FormRef = MutableRefObject<HTMLFormElement> | MutableRefObject<null>;
+type InputRef = MutableRefObject<HTMLInputElement> | MutableRefObject<null>;
 
 export const ContactForm = () => {
   let closeRef: ButtonRef = useRef(null);
-  let submitRef: ButtonRef = useRef(null);
+  let submitRef: InputRef = useRef(null);
   let successRef: DivRef = useRef(null);
   let errorRef: DivRef = useRef(null);
   let contactRef: FormRef = useRef(null);
