@@ -1,8 +1,13 @@
 import type { Metadata } from 'next';
 import { Navbar } from './_assets/components/layout/NavBar';
 import { Footer } from './_assets/components/layout/Footer';
-import siteIcon from './_assets/images/favicon.ico';
-import './_assets/styles/scss/main.scss';
+
+// Import font families
+import '@fontsource/acme';
+import '@fontsource/aclonica';
+
+// Import global styles
+import './_assets/styles/css/globals.min.css';
 
 const dotenv = require('dotenv');
 dotenv.config();

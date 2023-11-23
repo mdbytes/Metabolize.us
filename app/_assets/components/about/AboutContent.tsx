@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Image from 'next/image';
 
-export const AboutContent = () => {
+export function AboutContent() {
   return (
     <div className="container">
       <div className="row">
@@ -244,4 +244,4 @@ export const AboutContent = () => {
       </div>
     </div>
   );
-};
+}

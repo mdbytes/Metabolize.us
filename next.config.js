@@ -22,7 +22,6 @@ const nextConfig = {
     WP_REST_GET_POSTS_URL: process.env.WP_REST_GET_POSTS_URL,
     WP_REST_GET_POST_WITH_SLUG_URL: process.env.WP_REST_GET_POST_WITH_SLUG_URL,
   },
-  productionBrowserSourceMaps: true,
 };
 
 module.exports = nextConfig;

@@ -1,0 +1,29 @@
+/**
+ *
+ * Filename:  main.scss
+ * Author:    Martin Dwyer
+ * Purpose:   Provides a central location to gather sitewide styles
+ * Date Mod:  December 8, 2021
+ *
+ */
+
+// IMPORT BOOTSTRAP 5
+
+// Import custom Bootstrap styling
+@import 'custom';
+
+// Import globals
+@import 'globals/animations';
+@import 'globals/mixins';
+@import 'globals/buttons';
+@import 'globals/typography';
+
+// Import modules
+@import 'modules/about.module';
+@import 'modules/contact.module';
+@import 'modules/footer.module';
+@import 'modules/home.module';
+@import 'modules/navbar.module';
+@import 'modules/post.module';
+@import 'modules/posts.module';
+@import 'modules/privacy.module';

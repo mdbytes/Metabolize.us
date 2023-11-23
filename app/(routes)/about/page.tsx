@@ -1,19 +1,13 @@
 import React from 'react';
-import { AboutContent } from '../../_assets/components/about/AboutContent';
-import { AboutIntro } from '../../_assets/components/about/AboutIntro';
 import { Metadata } from 'next';
+import AboutPage from '../../_assets/components/about/AboutPage';
 
 export const metadata: Metadata = {
   title: 'About | Primal Strength and Conditioning',
 };
 
-const AboutPage = () => {
-  return (
-    <div className="page" id="about-page">
-      <AboutIntro />
-      <AboutContent />
-    </div>
-  );
+const Page = () => {
+  return <AboutPage />;
 };
 
-export default AboutPage;
+export default Page;

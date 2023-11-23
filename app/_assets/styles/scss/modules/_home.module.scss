@@ -6,10 +6,6 @@
  *
  */
 
-@use '../custom' as *;
-@use '../components/mixins' as *;
-@use '../components/animations' as *;
-
 .jumbotron {
   background-color: rgba($black, 0.5);
   padding-top: 5rem;
