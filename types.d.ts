@@ -1,4 +1,5 @@
 import { StaticImageData } from 'next/image';
+import { MutableRefObject } from 'react';
 
 type Post = {
   id: number;
@@ -86,3 +87,8 @@ type Slide = {
   slideTitle: string;
   href: string;
 };
+
+type DivRef = MutableRefObject<HTMLDivElement> | MutableRefObject<null>;
+type InputRef = MutableRefObject<HTMLInputElement> | MutableRefObject<null>;
+type ButtonRef = MutableRefObject<HTMLButtonElement> | MutableRefObject<null>;
+type NavLinkRef = MutableRefObject<HTMLAnchorElement> | MutableRefObject<null>;

@@ -85,6 +85,9 @@
 
     #submit-button {
       margin-top: 1rem;
+      background-color: $primary;
+      border-color: $primary;
+      transition: 1s;
 
       &:visited,
       &:active {

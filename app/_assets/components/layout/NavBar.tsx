@@ -4,10 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React, { MutableRefObject, useEffect, useRef } from 'react';
 import bodybuilderIcon from '../../images/bodybuilder-icon.webp';
-
-type InputRef = MutableRefObject<HTMLInputElement> | MutableRefObject<null>;
-type ButtonRef = MutableRefObject<HTMLButtonElement> | MutableRefObject<null>;
-type NavLinkRef = MutableRefObject<HTMLAnchorElement> | MutableRefObject<null>;
+import { InputRef, ButtonRef, NavLinkRef } from '../../../../types';
 
 export const Navbar = () => {
   let pathname = usePathname();

@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import { ContactForm } from './ContactForm';
 
 export const Contact = () => {
