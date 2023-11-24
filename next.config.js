@@ -1,4 +1,7 @@
 /** @type {import('next').NextConfig} */
+
+const path = require('path');
+
 const nextConfig = {
   productionBrowserSourceMaps: true,
   images: {
@@ -22,6 +25,17 @@ const nextConfig = {
     WP_REST_GET_POSTS_URL: process.env.WP_REST_GET_POSTS_URL,
     WP_REST_GET_POST_WITH_SLUG_URL: process.env.WP_REST_GET_POST_WITH_SLUG_URL,
   },
+  sassOptions: {
+    includePaths: [path.join(__dirname, 'app/_assets/styles/scss')],
+  },
+  webpack: (config, { dev }) => {
+    // Enable source maps in development mode
+    if (dev) {
+      config.devtool = 'source-map';
+    }
+    return config;
+  },
+  productionBrowserSourceMaps: true,
 };
 
 module.exports = nextConfig;

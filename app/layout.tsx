@@ -7,7 +7,7 @@ import '@fontsource/acme';
 import '@fontsource/aclonica';
 
 // Import global styles
-import './_assets/styles/css/globals.min.css';
+import './_assets/styles/scss/globals.scss';
 
 const dotenv = require('dotenv');
 dotenv.config();
