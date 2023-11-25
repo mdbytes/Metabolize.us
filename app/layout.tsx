@@ -4,7 +4,8 @@ import { Footer } from './_assets/components/layout/Footer';
 import CookiesApproval from './_assets/components/layout/CookiesApproval';
 
 // Import font families
-import '@fontsource/acme';
+import '@fontsource/nunito';
+import '@fontsource/josefin-sans';
 import '@fontsource/aclonica';
 
 // Import global styles
