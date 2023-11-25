@@ -12,6 +12,10 @@ export function PostPage(props: PostPageProps) {
     postIdString = 'post-' + post.id;
     const content = post?.content?.rendered ? post.content.rendered : '';
     mainContent = content.replace('[', '').replace(']', '');
+    mainContent = mainContent.replaceAll(
+      'class="img-fluid"',
+      'class="img-fluid animate__animated animate__fadeIn animate__slow"'
+    );
   }
 
   return (
