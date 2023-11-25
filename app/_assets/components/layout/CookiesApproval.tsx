@@ -12,15 +12,23 @@ const CookiesApproval = () => {
     if (window != null) {
       approvalRef.current.style.display = 'none';
       setCookiesApproved(true);
+      sessionStorage.setItem('cookiesApproved', 'true');
     }
   };
 
   useEffect(() => {
     // Track the approval of cookies and privacy settings
-    if (document && !cookiesApproved) {
+    if (
+      document &&
+      !cookiesApproved &&
+      sessionStorage.getItem('cookiesApproved') !== 'true'
+    ) {
       setTimeout(() => {
         approvalRef.current.style.display = 'flex';
       }, 2000);
+    } else {
+      approvalRef.current.style.display = 'none';
+      setCookiesApproved(true);
     }
   }, [cookiesApproved]);
 
