@@ -55,9 +55,9 @@ const LandingPage = () => {
                                         </h6>
                                     </div>
                                     <p>
-                                        Living strong and staying positive with
-                                        strength training, nutrition and
-                                        exercise.
+                                        Building metabolic health and wellness
+                                        with a ketogenic diet, daily cardio and
+                                        regular weight training.
                                     </p>
                                 </div>
                             </div>
