@@ -7,25 +7,25 @@ import React from 'react';
 import { Post } from '../../../../types';
 
 export async function generateStaticParams() {
-  let posts: Post[] = await getAllPosts();
+    let posts: Post[] = await getAllPosts();
 
-  let staticParams: { slug: string }[] | undefined = [];
+    let staticParams: { slug: string }[] | undefined = [];
 
-  for (let post of posts) {
-    staticParams.push({ slug: post.slug });
-  }
+    for (let post of posts) {
+        staticParams.push({ slug: post.slug });
+    }
 
-  return staticParams;
+    return staticParams;
 }
 
 export const metadata: Metadata = {
-  title: 'Post | Primal Strength and Conditioning',
+    title: 'Post | Metabolic Victory',
 };
 
 export default async function page({ params }: { params: { slug: string } }) {
-  console.log(params);
+    console.log(params);
 
-  const post: Post = await getPostBySlug(params.slug);
+    const post: Post = await getPostBySlug(params.slug);
 
-  return <PostPage post={post} />;
+    return <PostPage post={post} />;
 }

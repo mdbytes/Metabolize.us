@@ -4,11 +4,11 @@ import { Contact } from '../../_assets/components/contact/ContactPage';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Contact | Primal Strength and Conditioning',
+    title: 'Contact | Metabolic Victory',
 };
 
 const ContactPage = () => {
-  return <Contact />;
+    return <Contact />;
 };
 
 export default ContactPage;

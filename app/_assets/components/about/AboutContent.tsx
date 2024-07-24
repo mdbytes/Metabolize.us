@@ -2,246 +2,231 @@ import React, { Component } from 'react';
 import Image from 'next/image';
 
 export function AboutContent() {
-  return (
-    <div className="container">
-      <div className="row">
-        <div className="col-md-8 about">
-          <h1 style={{ textAlign: 'left' }}>
-            <strong>
-              <span style={{ color: '#800000' }}>Martin Dwyer</span>
-            </strong>
-          </h1>
-          <p>
-            <Image
-              src="https://goprimalstrength.com/wp-content/uploads/2018/02/Screenshot-from-2018-02-19-13-41-25-150x150.png"
-              alt=""
-              width="75"
-              height="75"
-              className="img-fluid"
-            />
-          </p>
-          <p>
-            <strong>
-              <em>Primal Strength</em>
-            </strong>{' '}
-            represents the accumulated knowledge and experience of Martin Dwyer.
-            Martin has been a member of{' '}
-            <a href="https://www.issaonline.edu/">
-              <em>The International Sports Sciences Association</em>
-            </a>{' '}
-            (ISSA) since 2016 where he holds the qualifications of{' '}
-            <em>
-              <strong>Certified </strong>
-              <strong>
-                <em>F</em>itness Trainer
-              </strong>
-            </em>
-            (CFT) and{' '}
-            <em>
-              <strong>
-                Certified Specialist in <em>Strength and C</em>onditioning
-              </strong>
-            </em>
-            (CSSC). The ISSA, founded in 1988 as one of the first
-            self-regulating organizations for personal trainers, is the first
-            and only fitness organization in the U.S. accredited by a federally
-            recognized agency. Members of ISSA agree to follow the organizations
-            <a href="https://www.issatrainer.com/policies/professional-standards-of-personal-training/">
-              Professional Standards
-            </a>{' '}
-            and be subject to review of the organization&apos;s ethics
-            committee.
-          </p>
-          <h4>
-            <strong>Youth Sports and Fitness</strong>
-          </h4>
-          <p>
-            Martin&apos;s desire for athletic performance can be traced to his
-            earliest years, and throughout his life strength training, running
-            and cycling, basketball and baseball have played important roles
-            each and every year. In high school, Martin played baseball and
-            basketball at the AAU level, and lettered in both sports. He
-            received all conference honors in basketball as a Senior in a very
-            competitive conference. Several of Martin&apos;s friends and
-            teammates from these years went on to collegiate athletics and even
-            professional sports.
-          </p>
-          <h4>
-            <strong>Collegiate Strength Training</strong>
-          </h4>
-          <p>
-            After high school, Martin would find his way to NCAA Division III
-            Millikin University in Decatur, Illinois, where he participated in
-            the basketball and baseball programs. He credits the diet and
-            nutrition program at Millikin as his first experience with serious
-            growth in strength and muscle mass. He arrived on campus a very lean
-            6&apos;5&rquo; and 185 pounds. His coaches prescribed a diet high in
-            protein and healthy fats, along with lots of bench presses, squats,
-            and deadlifts. Just a year later he was listed in the program at
-            strong and athletic 6&apos;5&rsquo;, 215 pounds. This season of
-            strength training gave birth to a life long passion.
-          </p>
-          <h4>
-            <strong>Successful in Business</strong>
-          </h4>
-          <p>
-            Martin&apos;s competitive spirit served him well in corporate
-            America. After finishing his B.S. in Business at Millikin, Martin
-            completed a M.S. at Illinois State University and would take his
-            competitive spirit to corporate America. Over 20 years he would work
-            exclusively with Fortune 100 companies in leadership positions with
-            ever growing areas of responsibility. At his highest level, Senior
-            Vice President of a super regional bank, he managed over 150
-            employees and 20 branches.
-          </p>
-          <h4>
-            <strong>Coaching Youth Sports</strong>
-          </h4>
-          <p>
-            During his time in corporate life, Martin was active coaching and
-            leading youth sports and programs. He has volunteered in various
-            capacities for programs at the YMCA, Boys and Girls Clubs, and the
-            Salvation Army.
-          </p>
-          <h4>
-            <strong>
-              Enduring Fitness
-              <br />
-            </strong>
-          </h4>
-          <p>
-            <Image
-              src="https://goprimalstrength.com/wp-content/uploads/2018/05/profile_after_machines-600x600-150x150.png"
-              alt=""
-              width="150"
-              height="150"
-              className="img-fluid"
-            />
-            <br />
-            Staying fit through life can be a challenge, especially in the face
-            of illness and injury. After recovering from serious illness in
-            2009, Martin&apos;s dedication to fitness would grow tremendously as
-            he faced the challenge with his health. Today, after recovering
-            fully, Martin devotes his days to encouraging and guiding others in
-            their wellness journeys. His approach to fitness is committed to
-            building core strength with progressive resistance weight training,
-            balanced with an appropriate level of cardio for individual needs.
-          </p>
-          <p>
-            In addition to his training, Martin also attends to the needs of
-            <a href="https://mdbytes.com">MD Web Technologies</a>, his web
-            development company.
-          </p>
-          <p>&nbsp;</p>
-        </div>
+    return (
+        <div className="container">
+            <div className="row">
+                <div className="col-md-8 about">
+                    <h2 style={{ textAlign: 'left' }}>Martin Dwyer, CFT</h2>
+                    <p>
+                        <Image
+                            src="https://goprimalstrength.com/wp-content/uploads/2018/02/Screenshot-from-2018-02-19-13-41-25-150x150.png"
+                            alt=""
+                            width="75"
+                            height="75"
+                            className="img-fluid"
+                        />
+                    </p>
+                    <p>
+                        <br />
+                        Thanks for visiting this page. I created it to share my
+                        journey and to encourage others in their battle with
+                        metabolic syndrome. I am 61 years old. My battle with
+                        metabolic syndrome has been ongoing for most of my life.
+                        Only in the last 20 years has research identified the
+                        root cause of metabolic syndrome. I hope that this site
+                        will be a source of information and inspiration as you
+                        continue your wellness journey through life.
+                    </p>
+                    <h4 className="mt-4">
+                        <strong>Metabolic syndrome was winning</strong>
+                    </h4>
+                    <p>
+                        In my early years, athletics kept me busy enough to
+                        control my waist size and maintain a concept of strength
+                        and fitness. I was typical for most young people -
+                        ignorant of my own immortality. But as life progressed,
+                        I was constantly battling the bulge around my waist. To
+                        put it simple, I got fat very easily. If a person could
+                        win awards for gaining weight in a short amount of time,
+                        I would need a warehouse for all the trophies.
+                    </p>
 
-        <div className="col-md-4 about-images">
-          <div
-            className="fl-module fl-module-photo fl-node-5b2d1adff1587"
-            data-node="5b2d1adff1587"
-          >
-            <div className="fl-module-content fl-node-content">
-              <div
-                className="fl-photo fl-photo-align-center"
-                itemScope
-                itemType="https://schema.org/ImageObject"
-              >
-                <div className="fl-photo-content fl-photo-img-jpg">
-                  <Image
-                    loading="eager"
-                    src="https://goprimalstrength.com/wp-content/uploads/2018/06/1974-Marty-Baseball-_BW.jpg"
-                    alt="1974 Marty Baseball _BW"
-                    itemProp="image"
-                    height="975"
-                    width="1200"
-                    title="1974 Marty Baseball _BW"
-                    sizes="(max-width: 1200px) 100vw, 1200px"
-                    className="img-fluid mb-3"
-                  />
+                    <p>
+                        The awards I received for years of losing battles with
+                        metabolic syndrome were eye-opening, including
+                        prediabetes, lung disease and cancer. It was time to get
+                        my act together, if at all possible. I have a lots to
+                        live for, but life itself was escaping me quickly thanks
+                        to metabolic syndrome.
+                    </p>
+
+                    <h4 className="mt-4">
+                        <strong>Victory was possible</strong>
+                    </h4>
+                    <p>
+                        My first reaction was to get busy again, returning to
+                        the strength and conditioning of my youth. To help me
+                        engage and share with others, I completed{' '}
+                        <a href="https://www.issaonline.com/certification/personal-trainer-certification">
+                            certification
+                        </a>{' '}
+                        as a Certified Fitness Trainer (CFT) and Strength and
+                        Conditioning Coach( SSC). It felt to be strong again and
+                        to encourage others. But something was missing, it was
+                        still so easy to gain weight.
+                    </p>
+                    <p>
+                        Through a diet and exercise program that worked for me I
+                        was able to say goodbye to obesity worries and embrace a
+                        new lifestyle. This works for me, and I am excited about
+                        it, which is why I share it on this site.
+                    </p>
+
+                    <h4 className="mt-4">
+                        <strong>Victory must be a lifestyle </strong>
+                    </h4>
+                    <p>
+                        Staying fit through life can be a challenge. Even on top
+                        of the metabolic challenges of gaining weight easily,
+                        real life brings with it career, family, friends and
+                        community. All of these can be both a blessing and a
+                        burden.
+                    </p>
+                    <p>
+                        In order to create sustainable victory, it became
+                        necessary for me to first accept this new diet and
+                        exercise program as more than either a diet or exercise
+                        program. They needed to become my lifestyle, an integral
+                        part of me. That was the easy part.
+                    </p>
+                    <p>
+                        Sometimes it is necessary to explain my lifestyle
+                        restrictions and requirements to others. In the best
+                        cases, it goes very well. My family has embraced my
+                        needs with love beyond my imagination. But the response
+                        is truthfully mixed. Some will tell you keto is a fad
+                        diet - despite the fact that research on keto diets
+                        existed long before low-fat diets were invented. In any
+                        event, be unwavering and the resistance will pass.
+                    </p>
+                    <h4 className="mt-4">
+                        <strong>First things first</strong>
+                    </h4>
+                    <p>
+                        Before anyone should try the programs discussed on this
+                        website, they should have the support of their doctor,
+                        understand their own body chemistry and inherent
+                        challenges.
+                    </p>
+                    <h4 className="mt-4">
+                        <strong>Contact</strong>
+                    </h4>
+                    <p>
+                        If you have any questions about the material on this
+                        site, please visit the{' '}
+                        <a href="/contact">contact page</a> to send me a
+                        message. .
+                    </p>
+                    <p>&nbsp;</p>
                 </div>
-              </div>
-            </div>
-          </div>
-          <div
-            className="fl-module fl-module-photo fl-node-5b2d23d3bbf27"
-            data-node="5b2d23d3bbf27"
-          >
-            <div className="fl-module-content fl-node-content">
-              <div
-                className="fl-photo fl-photo-align-center"
-                itemScope
-                itemType="https://schema.org/ImageObject"
-              >
-                <div className="fl-photo-content fl-photo-img-jpg">
-                  <Image
-                    loading="eager"
-                    className="img-fluid mb-3"
-                    src="https://goprimalstrength.com/wp-content/uploads/2018/06/spalding_basketball2.jpg"
-                    alt="EPSON MFP"
-                    itemProp="image"
-                    height="1401"
-                    width="1440"
-                    title="EPSON MFP image"
-                    sizes="(max-width: 1440px) 100vw, 1440px"
-                  />
+
+                <div className="col-md-4 about-images">
+                    <div
+                        className="fl-module fl-module-photo fl-node-5b2d2579dedd7"
+                        data-node="5b2d2579dedd7"
+                    >
+                        <div className="fl-module-content fl-node-content">
+                            <div
+                                className="fl-photo fl-photo-align-center"
+                                itemScope
+                                itemType="https://schema.org/ImageObject"
+                            >
+                                <div className="fl-photo-content fl-photo-img-jpg">
+                                    <Image
+                                        loading="eager"
+                                        className="img-fluid mb-3"
+                                        src="https://goprimalstrength.com/wp-content/uploads/2016/10/20100610-e1476893213649.jpg"
+                                        alt="EPSON MFP Number 3"
+                                        itemProp="image"
+                                        height="1314"
+                                        width="1672"
+                                        title="EPSON MFP image"
+                                        sizes="(max-width: 1672px) 100vw, 1672px"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        className="fl-module fl-module-photo fl-node-5b2d24da54f2c"
+                        data-node="5b2d24da54f2c"
+                    >
+                        <div className="fl-module-content fl-node-content">
+                            <div
+                                className="fl-photo fl-photo-align-center"
+                                itemScope
+                                itemType="https://schema.org/ImageObject"
+                            >
+                                <div className="fl-photo-content fl-photo-img-jpg">
+                                    <Image
+                                        loading="eager"
+                                        className="img-fluid mb-3"
+                                        src="https://goprimalstrength.com/wp-content/uploads/2024/07/20180712_comparison_2.png"
+                                        alt="EPSON MFP Number 2"
+                                        itemProp="image"
+                                        height="1196"
+                                        width="1094"
+                                        title="EPSON MFP image"
+                                        sizes="(max-width: 1094px) 100vw, 1094px"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        className="fl-module fl-module-photo fl-node-5b2d1adff1587"
+                        data-node="5b2d1adff1587"
+                    >
+                        <div className="fl-module-content fl-node-content">
+                            <div
+                                className="fl-photo fl-photo-align-center"
+                                itemScope
+                                itemType="https://schema.org/ImageObject"
+                            >
+                                <div className="fl-photo-content fl-photo-img-jpg">
+                                    <Image
+                                        loading="eager"
+                                        src="https://goprimalstrength.com/wp-content/uploads/2024/07/IMG_9519.jpg"
+                                        alt="1974 Marty Baseball _BW"
+                                        itemProp="image"
+                                        height="975"
+                                        width="1200"
+                                        title="1974 Marty Baseball _BW"
+                                        sizes="(max-width: 1200px) 100vw, 1200px"
+                                        className="img-fluid mb-3"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        className="fl-module fl-module-photo fl-node-5b2d23d3bbf27"
+                        data-node="5b2d23d3bbf27"
+                    >
+                        <div className="fl-module-content fl-node-content">
+                            <div
+                                className="fl-photo fl-photo-align-center"
+                                itemScope
+                                itemType="https://schema.org/ImageObject"
+                            >
+                                <div className="fl-photo-content fl-photo-img-jpg">
+                                    <Image
+                                        loading="eager"
+                                        className="img-fluid mb-3"
+                                        src="https://goprimalstrength.com/wp-content/uploads/2024/07/side_side-600x600-1.jpg"
+                                        alt="EPSON MFP"
+                                        itemProp="image"
+                                        height="1401"
+                                        width="1440"
+                                        title="EPSON MFP image"
+                                        sizes="(max-width: 1440px) 100vw, 1440px"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-          <div
-            className="fl-module fl-module-photo fl-node-5b2d24da54f2c"
-            data-node="5b2d24da54f2c"
-          >
-            <div className="fl-module-content fl-node-content">
-              <div
-                className="fl-photo fl-photo-align-center"
-                itemScope
-                itemType="https://schema.org/ImageObject"
-              >
-                <div className="fl-photo-content fl-photo-img-jpg">
-                  <Image
-                    loading="eager"
-                    className="img-fluid mb-3"
-                    src="https://goprimalstrength.com/wp-content/uploads/2018/06/miilikin_baseball2.jpg"
-                    alt="EPSON MFP Number 2"
-                    itemProp="image"
-                    height="1196"
-                    width="1094"
-                    title="EPSON MFP image"
-                    sizes="(max-width: 1094px) 100vw, 1094px"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            className="fl-module fl-module-photo fl-node-5b2d2579dedd7"
-            data-node="5b2d2579dedd7"
-          >
-            <div className="fl-module-content fl-node-content">
-              <div
-                className="fl-photo fl-photo-align-center"
-                itemScope
-                itemType="https://schema.org/ImageObject"
-              >
-                <div className="fl-photo-content fl-photo-img-jpg">
-                  <Image
-                    loading="eager"
-                    className="img-fluid mb-3"
-                    src="https://goprimalstrength.com/wp-content/uploads/2018/06/millikin_basketball2.jpg"
-                    alt="EPSON MFP Number 3"
-                    itemProp="image"
-                    height="1314"
-                    width="1672"
-                    title="EPSON MFP image"
-                    sizes="(max-width: 1672px) 100vw, 1672px"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
-    </div>
-  );
+    );
 }

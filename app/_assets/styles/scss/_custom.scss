@@ -33,15 +33,15 @@ $black: #000;
 // fusv-disable
 // scss-docs-start gray-colors-map
 $grays: (
-  '100': $gray-100,
-  '200': $gray-200,
-  '300': $gray-300,
-  '400': $gray-400,
-  '500': $gray-500,
-  '600': $gray-600,
-  '700': $gray-700,
-  '800': $gray-800,
-  '900': $gray-900,
+    '100': $gray-100,
+    '200': $gray-200,
+    '300': $gray-300,
+    '400': $gray-400,
+    '500': $gray-500,
+    '600': $gray-600,
+    '700': $gray-700,
+    '800': $gray-800,
+    '900': $gray-900,
 );
 
 // useful colors for use throughout
@@ -78,10 +78,10 @@ $wildthings-primary-dark: #251a0e;
 $wildthings-secondary: #80b55f;
 
 // Setting the primary and secondary colors for Bootstrap
-$primary: $wildthings-primary;
-$primary-light: $wildthings-primary-light;
-$primary-dark: $wildthings-primary-dark;
-$secondary: $wildthings-secondary;
+$primary: #006600;
+$primary-light: #00b300;
+$primary-dark: #003300;
+$secondary: #cc6600;
 
 // Nav and Footer Background settings
 $nav-background: rgba(#262626, 0.9);
@@ -109,21 +109,21 @@ $light: $gray-100;
 $dark: $gray-900;
 
 .btn-primary {
-  background-color: $primary;
-  border-color: $primary;
-  color: $white;
-
-  box-shadow: 0 0 1rem rgba($white, 0.8);
-
-  transition: 1s;
-
-  &:hover {
-    transform: scale(1.1);
-    box-shadow: 0 0 2rem rgba($white, 0.8);
     background-color: $primary;
     border-color: $primary;
     color: $white;
-  }
+
+    box-shadow: 0 0 1rem rgba($white, 0.8);
+
+    transition: 1s;
+
+    &:hover {
+        transform: scale(1.1);
+        box-shadow: 0 0 2rem rgba($white, 0.8);
+        background-color: $primary;
+        border-color: $primary;
+        color: $white;
+    }
 }
 
 // IMPORT BOOTSTRAP 5

@@ -1,79 +1,79 @@
 @mixin displayFlexCenter {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 // Gradient mixin
 
 @mixin gradient {
-  // background: linear-gradient(147deg, rgba($primary, 0.95), rgba($secondary, 0.95));
-  background: linear-gradient(
-    147deg,
-    $primary-dark 0%,
-    $primary 40%,
-    $primary-light 70%,
-    $secondary 100%
-  );
+    // background: linear-gradient(147deg, rgba($primary, 0.95), rgba($secondary, 0.95));
+    background: linear-gradient(
+        147deg,
+        $primary-dark 0%,
+        $primary 40%,
+        $primary-light 70%,
+        $secondary 100%
+    );
 }
 
 @mixin responsiveText {
-  font-size: calc(50% + 1vw + 1vh);
+    font-size: calc(50% + 1vw + 1vh);
 }
 
 // Background Image
 @mixin backgroundImage {
-  &:after {
-    content: '';
-    position: fixed;
+    &:after {
+        content: '';
+        position: fixed;
 
-    /* stretch a fixed position to the whole screen */
-    top: 0;
-    height: 100%;
-    width: auto;
+        /* stretch a fixed position to the whole screen */
+        top: 0;
+        height: 100%;
+        width: auto;
 
-    /* fix for mobile browser address bar appearing disappearing */
-    left: 0;
-    right: 0;
-    z-index: -1;
-    /* needed to keep in the background */
-    background: url('./images/primal-strength-background.jpeg') top center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
+        /* fix for mobile browser address bar appearing disappearing */
+        left: 0;
+        right: 0;
+        z-index: -1;
+        /* needed to keep in the background */
+        background: url('../images/primal-strength-background.jpeg') top center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 }
 
 // A light background cover for content pages
 
 @mixin lightCover {
-  background: linear-gradient(
-    0.5turn,
-    rgba(0, 0, 0, 0.6),
-    rgba(0, 0, 0, 0.7) 25%,
-    rgba(0, 0, 0, 0.8) 70%
-  );
+    background: linear-gradient(
+        0.5turn,
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.7) 25%,
+        rgba(0, 0, 0, 0.8) 70%
+    );
 }
 
 @mixin logoFontFamily {
-  font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 @mixin baseFont {
-  font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 
 // Absolute center
 @mixin absoluteCenter {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 @mixin transitionProperty {
-  transition-duration: 1s;
-  transition-property: all;
+    transition-duration: 1s;
+    transition-property: all;
 }

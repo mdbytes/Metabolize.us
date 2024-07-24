@@ -3,11 +3,11 @@ import { Metadata } from 'next';
 import AboutPage from '../../_assets/components/about/AboutPage';
 
 export const metadata: Metadata = {
-  title: 'About | Primal Strength and Conditioning',
+    title: 'About | Metabolic Victory',
 };
 
 const Page = () => {
-  return <AboutPage />;
+    return <AboutPage />;
 };
 
 export default Page;
