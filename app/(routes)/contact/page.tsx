@@ -4,7 +4,7 @@ import { Contact } from '../../_assets/components/contact/ContactPage';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Contact | Metabolic Victory',
+    title: 'Contact |  Metabolize.us',
 };
 
 const ContactPage = () => {

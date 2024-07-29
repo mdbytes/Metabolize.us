@@ -19,7 +19,7 @@ export async function generateStaticParams() {
 }
 
 export const metadata: Metadata = {
-    title: 'Post | Metabolic Victory',
+    title: 'Post |  Metabolize.us',
 };
 
 export default async function page({ params }: { params: { slug: string } }) {

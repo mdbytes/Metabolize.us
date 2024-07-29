@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 import AboutPage from '../../_assets/components/about/AboutPage';
 
 export const metadata: Metadata = {
-    title: 'About | Metabolic Victory',
+    title: 'About |  Metabolize.us',
 };
 
 const Page = () => {

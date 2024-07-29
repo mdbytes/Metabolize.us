@@ -16,7 +16,7 @@ dotenv.config();
 
 export const metadata: Metadata = {
     metadataBase: new URL('https://primal-strength.vercel.app'),
-    title: 'Home | Metabolic Victory',
+    title: 'Home | Metabolize.us',
     description:
         'Primal Strength Training and Conditioning, a website dedicated to strength, conditioning and longevity.',
     keywords: 'power lifting conditioning weight lifting fitness longevity',
