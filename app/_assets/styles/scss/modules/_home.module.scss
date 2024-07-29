@@ -26,6 +26,10 @@
         align-items: center;
         justify-content: space-between;
 
+        @include media-breakpoint-down(lg) {
+            padding-bottom: 0;
+        }
+
         .site-title {
             display: flex;
             flex-direction: column;
@@ -33,7 +37,7 @@
             justify-content: space-between;
             h1 {
                 color: $light;
-                font-size: 4.5rem;
+                font-size: 5rem;
                 font-weight: 700;
                 text-shadow: 0rem 0rem 1rem $black;
                 animation-name: zoomInDown;
@@ -41,13 +45,13 @@
                 animation-iteration-count: 1;
 
                 @include media-breakpoint-down(xl) {
-                    font-size: 3.5rem;
+                    font-size: 4rem;
                     font-weight: 600;
                     margin-bottom: 3rem;
                 }
 
                 @include media-breakpoint-down(lg) {
-                    font-size: 2.5rem;
+                    font-size: 3rem;
                 }
             }
 
@@ -86,6 +90,51 @@
             }
         }
 
+        .site-description {
+            animation-name: zoomInDown;
+            animation-duration: 1s;
+            animation-iteration-count: 1;
+            color: $light;
+
+            h3,
+            h6 {
+                text-shadow: 0rem 0rem 1rem $black;
+            }
+
+            p {
+                width: 80%;
+                max-width: 500px;
+                text-align: center;
+                margin: 0 auto;
+                font-size: 1.25rem;
+                font-weight: 500;
+                text-shadow: 0rem 0rem 1rem $black;
+
+                @include media-breakpoint-down(lg) {
+                    width: 90%;
+                    font-size: 1rem;
+                }
+            }
+
+            ul {
+                margin-top: 2.5rem;
+            }
+
+            li {
+                font-size: 1.25rem;
+
+                i {
+                    color: #006600;
+                    height: 100%;
+                    padding: 0;
+
+                    background-color: #fff;
+                    line-height: 0.75rem;
+                    border-radius: 0.1rem;
+                }
+            }
+        }
+
         .btn {
             margin-top: 4rem;
             margin-bottom: 10vh;
@@ -113,33 +162,18 @@
             justify-content: center;
 
             img {
-                width: 90%;
+                width: 300px;
                 height: auto;
                 border-radius: $border-radius;
+                margin-top: 1rem;
                 margin-bottom: 1rem;
                 animation-name: zoomInDown;
                 animation-duration: 1s;
                 animation-iteration-count: 1;
-            }
-        }
 
-        .site-description {
-            animation-name: zoomInDown;
-            animation-duration: 1s;
-            animation-iteration-count: 1;
-            color: $light;
-
-            h3,
-            h6 {
-                text-shadow: 0rem 0rem 1rem $black;
-            }
-
-            p {
-                width: 60%;
-                text-align: center;
-                margin: 0 auto;
-                font-weight: 500;
-                text-shadow: 0rem 0rem 1rem $black;
+                @include media-breakpoint-down(lg) {
+                    width: 200px;
+                }
             }
         }
     }
@@ -187,19 +221,18 @@ div.featured-posts {
         }
 
         .card-img-holder {
-            height: 25rem;
+            height: 100%;
             overflow: hidden;
             box-shadow: 0 0 1rem rgba($dark, 0.8);
             display: flex;
             align-items: center;
             justify-content: center;
-            position: relative;
+
             margin-bottom: 1rem;
 
             img {
-                height: 35rem;
+                height: auto;
                 width: auto;
-                position: absolute;
                 top: 0;
                 transition: 1s;
             }
@@ -232,6 +265,10 @@ div.featured-posts {
 .carousel.slide {
     padding: 0;
     height: 60vh;
+
+    @include media-breakpoint-down(lg) {
+        display: none;
+    }
 
     h3 {
         font-size: 5rem;

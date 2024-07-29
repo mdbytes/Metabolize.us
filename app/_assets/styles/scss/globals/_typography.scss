@@ -1,6 +1,11 @@
 body {
     @include baseFont;
     @include backgroundImage;
+    width: 100vw;
+}
+
+.app {
+    width: 100vw;
 }
 
 .attribution {

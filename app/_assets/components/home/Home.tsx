@@ -7,7 +7,7 @@ import FeaturedArticles from './FeaturedArticles';
 import { sliderOne, sliderTwo } from './slides';
 import HomeSlider from './HomeSlider';
 import OurApproach from './OurApproach';
-import profilePic from '../../images/home/20180712_reduction.webp';
+import profilePic from '../../images/home/Subject.png';
 import logoPic from '../../images/home/metabolic-img.ico';
 import MartinsJourney from './MartinsJourney';
 
@@ -25,12 +25,36 @@ const LandingPage = () => {
                             <div className="col-lg-6 left">
                                 <div className="site-title">
                                     <h1 className="headline text-center">
-                                        Metabolic Victory
+                                        Metabolize.us{' '}
                                     </h1>
                                     <p className="tagline text-center">
-                                        Battling chronic disease with nutrition
-                                        and exercise
+                                        Battling chronic illness with metabolic
+                                        wellness.
                                     </p>
+                                </div>
+                                <div className="site-description">
+                                    <div className="heading">
+                                        <ul className="fa-ul">
+                                            <li>
+                                                <span className="fa-li">
+                                                    <i className="fa-solid fa-check-square"></i>
+                                                </span>
+                                                Optimize Hormones
+                                            </li>
+                                            <li>
+                                                <span className="fa-li">
+                                                    <i className="fa-solid fa-check-square"></i>
+                                                </span>
+                                                Burn Fat
+                                            </li>
+                                            <li>
+                                                <span className="fa-li">
+                                                    <i className="fa-solid fa-check-square"></i>
+                                                </span>
+                                                Build Muscle
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                                 <div className="btn-learn-more">
                                     <a
@@ -51,14 +75,6 @@ const LandingPage = () => {
                                         />
                                     </div>
                                 </Link>
-                                <div className="site-description">
-                                    <div className="heading text-center">
-                                        <h3>Martin Dwyer</h3>
-                                        <h6>
-                                            ISSA Elite Trainer<sup>*</sup>
-                                        </h6>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
