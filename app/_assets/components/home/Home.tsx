@@ -7,9 +7,10 @@ import FeaturedArticles from './FeaturedArticles';
 import { sliderOne, sliderTwo } from './slides';
 import HomeSlider from './HomeSlider';
 import OurApproach from './OurApproach';
-import profilePic from '../../images/home/Subject.png';
+import profilePic from '../../images/home/20180712_comparison_2.webp';
 import logoPic from '../../images/home/metabolic-img.ico';
 import MartinsJourney from './MartinsJourney';
+import MetabolicSyndrome from './MetabolicSyndrome';
 
 const LandingPage = () => {
     useEffect(() => {
@@ -28,8 +29,7 @@ const LandingPage = () => {
                                         Metabolize.us{' '}
                                     </h1>
                                     <p className="tagline text-center">
-                                        Battling chronic illness with metabolic
-                                        wellness.
+                                        Battling metabolic syndrome
                                     </p>
                                 </div>
                                 <div className="site-description">
@@ -59,9 +59,9 @@ const LandingPage = () => {
                                 <div className="btn-learn-more">
                                     <a
                                         className="btn btn-primary"
-                                        href="#featured-posts"
+                                        href="#metabolic-syndrome"
                                     >
-                                        Read More{' '}
+                                        Learn More{' '}
                                     </a>
                                 </div>
                             </div>
@@ -80,9 +80,9 @@ const LandingPage = () => {
                     </div>
                 </section>
             </div>
+            <MetabolicSyndrome />
+
             <FeaturedArticles />
-            <HomeSlider slides={sliderOne} />
-            <OurApproach />
         </>
     );
 };

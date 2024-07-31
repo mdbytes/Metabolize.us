@@ -5,12 +5,12 @@ import approachPic from '../../images/home/recovery.jpg';
 export default function OurApproach() {
     return (
         <div className="about-martin">
-            <div className="container">
+            <div className="container-fluid">
                 <div className="row">
                     <h2>Special Topics</h2>
                 </div>
                 <div className="row pb-3">
-                    <div className="card col-lg-8 approach">
+                    <div className="card col-lg-6 approach">
                         <p>
                             <strong>Recovery. </strong>Recovering from an injury
                             can be a challenging and frustrating experience, but
@@ -52,13 +52,18 @@ export default function OurApproach() {
                             quality and quantity of life are impaired.
                         </p>
                     </div>
-                    <div className="col-lg-4 image-card">
-                        <Image
-                            src={approachPic}
-                            width="800"
-                            className="img-fluid approach"
-                            alt="journey"
-                        />
+                    <div className="col-lg-6 image-card">
+                        <div id="front-page-video-holder">
+                            <iframe
+                                id="front-page-video"
+                                src="https://www.youtube.com/embed/nrZHg7Pcr9A?si=7ogeNZ1NXLFSW402"
+                                title="YouTube video player"
+                                frameBorder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerPolicy="strict-origin-when-cross-origin"
+                                allowFullScreen
+                            ></iframe>
+                        </div>
                     </div>
                 </div>
             </div>

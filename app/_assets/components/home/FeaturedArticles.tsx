@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import parse from 'html-react-parser';
 import { getFeaturedPosts } from '../../utils/wp-rest-api';
+import MetabolicSyndrome from './MetabolicSyndrome';
 
 export default async function FeaturedArticles() {
     let featuredPosts = await getFeaturedPosts();
@@ -9,7 +10,9 @@ export default async function FeaturedArticles() {
     if (featuredPosts.length > 0) {
         return (
             <div id="featured-posts" className="featured-posts">
-                <h2 className="text-center">Articles</h2>
+                <hr />
+                <h2 className="text-center pt-4 mt-3">Recent Articles</h2>
+
                 <div className="row">
                     {featuredPosts.map((post) => {
                         let postLink = `/post/${post.slug}`;
