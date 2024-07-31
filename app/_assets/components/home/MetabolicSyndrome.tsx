@@ -32,7 +32,7 @@ export default function MetabolicSyndrome() {
                                         <li>Stroke</li>
                                         <li>Type 2 Diabetes</li>
                                         <li>Dementia</li>
-                                        <li>Alzheimer's Disease</li>
+                                        <li>Alzheimer&apos;s Disease</li>
                                     </ul>
                                 </li>
                                 <li>
