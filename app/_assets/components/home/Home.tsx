@@ -39,19 +39,19 @@ const LandingPage = () => {
                                                 <span className="fa-li">
                                                     <i className="fa-solid fa-check-square"></i>
                                                 </span>
-                                                Optimize Hormones
+                                                Optimize your metabolism
                                             </li>
                                             <li>
                                                 <span className="fa-li">
                                                     <i className="fa-solid fa-check-square"></i>
                                                 </span>
-                                                Burn Fat
+                                                Fat burning nutrition
                                             </li>
                                             <li>
                                                 <span className="fa-li">
                                                     <i className="fa-solid fa-check-square"></i>
                                                 </span>
-                                                Build Muscle
+                                                Muscle building exercise
                                             </li>
                                         </ul>
                                     </div>
@@ -75,6 +75,13 @@ const LandingPage = () => {
                                         />
                                     </div>
                                 </Link>
+                                <div className="site-description">
+                                    <div className="heading">
+                                        <p className="text-center text-white">
+                                            Sharing experience and insights.
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

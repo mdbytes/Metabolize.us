@@ -21,11 +21,8 @@ export function AboutContent() {
                         Thanks for visiting this page. I created it to share my
                         journey and to encourage others in their battle with
                         metabolic syndrome. I am 61 years old. My battle with
-                        metabolic syndrome has been ongoing for most of my life.
-                        Only in the last 20 years has research identified the
-                        root cause of metabolic syndrome. I hope that this site
-                        will be a source of information and inspiration as you
-                        continue your wellness journey through life.
+                        metabolic syndrome has been ongoing for most of my life
+                        but with nutrition and exercise I have found victory.
                     </p>
                     <h4 className="mt-4">
                         <strong>Metabolic syndrome was winning</strong>
@@ -99,21 +96,33 @@ export function AboutContent() {
                         existed long before low-fat diets were invented. In any
                         event, be unwavering and the resistance will pass.
                     </p>
+
                     <h4 className="mt-4">
-                        <strong>First things first</strong>
+                        <strong>Training Solutions</strong>
                     </h4>
+
                     <p>
-                        Before anyone should try the programs discussed on this
-                        website, they should have the support of their doctor,
-                        understand their own body chemistry and inherent
-                        challenges.
+                        <i>
+                            <b>First things first.&nbsp;</b>
+                        </i>
+                        &nbsp;Before anyone should try the programs discussed on
+                        this website, or seek professional advice, they should
+                        have the support of their doctor to understand their own
+                        body chemistry and inherent challenges and limitations.
                     </p>
-                    <h4 className="mt-4">
-                        <strong>Contact</strong>
-                    </h4>
+                    <p>
+                        Your health and physical vitality does not need to be
+                        expensive or time consuming. Today, I prefer home gym
+                        solutions with cardio and weightlifting that can be
+                        pursued for little or no investment. Exercise is
+                        recommended as 30 minute workouts, five days a week.
+                        Weekends off. My own ketogenic nutrition is accomplished
+                        mostly with whole foods readily available at any market.
+                    </p>
                     <p>
                         If you have any questions about the material on this
-                        site, please visit the{' '}
+                        site, or would like to explore a personal coaching
+                        arrangement for yourself, please visit the{' '}
                         <a href="/contact">contact page</a> to send me a
                         message. .
                     </p>

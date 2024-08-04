@@ -6,9 +6,7 @@ export default function MetabolicSyndrome() {
     return (
         <div className="metabolic-syndrome" id="metabolic-syndrome">
             <div className="container-fluid">
-                <h2 className="text-center pt-4 mt-3">
-                    Metabolic Syndrome (MetS)
-                </h2>
+                <h2 className="text-center pt-4 mt-3">Metabolic Syndrome</h2>
                 <hr />
                 <div className="row mt-3">
                     <div className="card col-lg-6">
