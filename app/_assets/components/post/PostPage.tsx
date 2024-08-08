@@ -1,6 +1,8 @@
 import Link from 'next/link';
 import parse from 'html-react-parser';
+import Image from 'next/image';
 import { PostPageProps } from '../../../../types';
+import moment from 'moment';
 
 export function PostPage(props: PostPageProps) {
     let postIdString = '';
@@ -31,7 +33,31 @@ export function PostPage(props: PostPageProps) {
                             {parse(post.title.rendered)}
                         </h3>
                     </div>
-
+                    <Image
+                        layout="fixed"
+                        height={300}
+                        width={600}
+                        src={
+                            post['_embedded']['wp:featuredmedia'][0][
+                                'source_url'
+                            ]
+                        }
+                        alt="UI Design"
+                        className="img-fluid img-featured"
+                    />
+                    <div className="post-author w-100">
+                        <p className="text-center mt-3 pb-0 mb-0">
+                            Martin Dwyer, CFT
+                        </p>
+                    </div>
+                    <div className="post-date w-100">
+                        <p
+                            className="text-center pb-3"
+                            style={{ fontSize: '1rem' }}
+                        >
+                            {moment(post.date).format('MMMM DD, YYYY')}
+                        </p>
+                    </div>
                     <div className="container">{parse(mainContent)}</div>
                 </div>
             </section>

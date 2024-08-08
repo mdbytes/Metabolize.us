@@ -1,3 +1,5 @@
+'use client';
+
 import Image from 'next/image';
 
 import approachPic from '../../images/home/recovery.jpg';
@@ -5,9 +7,10 @@ import approachPic from '../../images/home/recovery.jpg';
 export default function MetabolicSyndrome() {
     return (
         <div className="metabolic-syndrome" id="metabolic-syndrome">
+            <hr />
             <div className="container-fluid">
                 <h2 className="text-center pt-4 mt-3">Metabolic Syndrome</h2>
-                <hr />
+
                 <div className="row mt-3">
                     <div className="card col-lg-6">
                         <div className="metabolic-info-wrapper">

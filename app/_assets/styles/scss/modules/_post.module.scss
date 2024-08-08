@@ -13,8 +13,21 @@
     padding-bottom: 4rem;
 
     .post {
+        .img-featured {
+            @include media-breakpoint-down(md) {
+                width: 70% !important;
+                height: auto;
+            }
+        }
         .post-text {
             max-width: 1200px;
+
+            .img-featured {
+                display: block;
+                margin: 0 auto;
+                border-radius: 8px;
+                box-shadow: 0 0 2rem rgba($black, 0.7);
+            }
 
             h2,
             h3,
@@ -129,6 +142,42 @@
         margin: 2rem auto;
         width: 40%;
         height: auto;
+    }
+
+    .body-type-images {
+        width: 90%;
+        margin: 0;
+        margin-bottom: 2rem;
+        padding: 0;
+        display: flex;
+        border-radius: 0.2rem;
+        box-shadow: 0 0 2rem rgba($black, 0.7);
+
+        @include media-breakpoint-down(md) {
+            width: 150px;
+            height: auto;
+            margin-bottom: 0;
+        }
+    }
+
+    .row > .col-md-2 {
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        @include media-breakpoint-down(md) {
+            justify-content: flex-start;
+            margin-left: 4rem;
+        }
+    }
+
+    .row > .col-md-10 {
+        @include media-breakpoint-down(md) {
+            ul {
+                padding-bottom: 1rem !important;
+            }
+        }
     }
 
     table {

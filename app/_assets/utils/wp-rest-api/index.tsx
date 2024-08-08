@@ -1,32 +1,33 @@
 import axios from 'axios';
 
 export async function getAllPosts() {
-  const url = process.env.WP_REST_GET_POSTS_URL as string;
-  const result = await axios.get(url);
+    const url = process.env.WP_REST_GET_POSTS_URL as string;
+    const result = await axios.get(url);
 
-  return result.data;
+    return result.data;
 }
 
 export async function getPostBySlug(slug: string) {
-  const url = process.env.WP_REST_GET_POST_WITH_SLUG_URL as string;
-  const result = await axios.get(`${url}${slug}`);
+    const url = process.env.WP_REST_GET_POST_WITH_SLUG_URL as string;
+    const result = await axios.get(`${url}${slug}`);
 
-  return result.data[0];
+    return result.data[0];
 }
 
 export async function getFeaturedPosts() {
-  const url = process.env.WP_REST_GET_POSTS_URL as string;
-  const result = await axios.get(url);
+    const url = process.env.WP_REST_GET_POSTS_URL as string;
+    const result = await axios.get(url);
 
-  let featuredPosts = [];
+    let featuredPosts = [];
 
-  let count = 0;
+    let count = 0;
 
-  for (let post of result.data) {
-    featuredPosts.push(post);
-    count++;
-    if (count === 3) break;
-  }
+    for (let post of result.data) {
+        console.log(post.tags);
+        if (post.tags.includes(123)) {
+            featuredPosts.push(post);
+        }
+    }
 
-  return featuredPosts;
+    return featuredPosts;
 }

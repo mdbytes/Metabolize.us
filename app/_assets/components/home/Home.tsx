@@ -1,5 +1,4 @@
 'use client';
-
 import React, { useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -59,7 +58,7 @@ const LandingPage = () => {
                                 <div className="btn-learn-more">
                                     <a
                                         className="btn btn-primary"
-                                        href="#metabolic-syndrome"
+                                        href="#our-approach"
                                     >
                                         Learn More{' '}
                                     </a>
@@ -87,7 +86,10 @@ const LandingPage = () => {
                     </div>
                 </section>
             </div>
-            <MetabolicSyndrome />
+
+            <OurApproach />
+
+            <HomeSlider slides={sliderOne} />
 
             <FeaturedArticles />
         </>

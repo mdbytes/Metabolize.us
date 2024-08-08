@@ -21,35 +21,93 @@ export function AboutContent() {
                         Thanks for visiting this page. I created it to share my
                         journey and to encourage others in their battle with
                         metabolic syndrome. I am 61 years old. My battle with
-                        metabolic syndrome has been ongoing for most of my life
-                        but with nutrition and exercise I have found victory.
+                        metabolic syndrome (obesity, high blood pressure,
+                        prediabetes) has been ongoing most of my life. I hope my
+                        experience, research and success can be a positive
+                        influence in your life.
                     </p>
                     <h4 className="mt-4">
-                        <strong>Metabolic syndrome was winning</strong>
+                        <strong>Obesity Creeps In...</strong>
                     </h4>
                     <p>
-                        In my early years, athletics kept me busy enough to
-                        control my waist size and maintain a concept of strength
-                        and fitness. I was typical for most young people -
-                        ignorant of my own immortality. But as life progressed,
-                        I was constantly battling the bulge around my waist. To
-                        put it simple, I got fat very easily. If a person could
-                        win awards for gaining weight in a short amount of time,
-                        I would need a warehouse for all the trophies.
+                        As a child, I had no idea what <i>obesity</i> or{' '}
+                        <i>metabolic syndrome</i> meant. I gained weight easily
+                        and carried it well on my large frame. My constitution
+                        kept me active as an athlete. I knew myself as a big
+                        strong man who came from a family of big strong men.
+                        That was it. No one was obese. No one had metabolic
+                        syndrome. Well, at least that's what I thought. It is
+                        what we all thought.
                     </p>
-
                     <p>
-                        The awards I received for years of losing battles with
-                        metabolic syndrome were eye-opening, including
-                        prediabetes, lung disease and cancer. It was time to get
-                        my act together, if at all possible. I have a lots to
-                        live for, but life itself was escaping me quickly thanks
-                        to metabolic syndrome.
+                        As an adult, my waistline grew steadily. It had been
+                        over 40 inches for several years when I was first
+                        diagnosed with high blood pressure. My doctor at the
+                        time did me no favors. Neither my weight nor my BMI were
+                        mentioned in the meeting where I was first prescribed
+                        high blood pressure medication. You see, my doctor was
+                        also a big strong man. We were both obese, but neither
+                        of us understood how much it was affecting my health.
                     </p>
-
                     <h4 className="mt-4">
-                        <strong>Victory was possible</strong>
+                        <strong>Then Disease ...</strong>
                     </h4>
+                    <p>
+                        As obesity persisted through adulthood, serious
+                        illnesses accumulated. By the time I was 50, I had lung
+                        disease and high blood pressure. A few years later you
+                        can add cancer to the list. Then I started reading my
+                        doctors notes from my visits. On one occasion, I her
+                        words gave me a new and illuminating perspective;
+                        "Martin struggles with obesity".
+                    </p>
+                    <p>
+                        How odd, I thought, that the doctor would write that I
+                        struggled with obesity. But remember that I, like most
+                        people in my circumstance, grow up around{' '}
+                        <i>big people</i> who were never referred to as obese.
+                        But I have struggled with obesity - never giving up.
+                        Battles and victories included:
+                    </p>
+                    <ul>
+                        <li>
+                            Losing 70 pounds in less than 90 days on slim fast
+                        </li>
+                        <li>
+                            Losing 50 pounds in less than 90 days on a low-fat
+                            diet
+                        </li>
+                        <li>Months at Nutri-System</li>
+                        <li>Years at Weight Watchers</li>
+                        <li>
+                            Endless fad diets including South Beach Diet,
+                            Pritikin Diet, the Grapefruit Diet and many more
+                        </li>
+                    </ul>
+                    <p>
+                        Obesity would eventually win. I would gain the weight
+                        all back, usually plus 10%. I was ill and desperate to
+                        beat this.
+                    </p>
+                    <h4 className="mt-4">
+                        <strong>First Battle Obesity ...</strong>
+                    </h4>
+                    <p>
+                        It took some time, but I have come to understand what it
+                        means for someone to{' '}
+                        <b>
+                            <i>struggle with obesity</i>
+                        </b>
+                        . Unfortunately, my answers to this question were not
+                        found in the medical community at large.
+                    </p>
+                    <p>
+                        Here are a few things that obesity struggles{' '}
+                        <b>
+                            <i>do not mean:</i>
+                        </b>
+                    </p>
+                    .
                     <p>
                         My first reaction was to get busy again, returning to
                         the strength and conditioning of my youth. To help me
@@ -68,7 +126,6 @@ export function AboutContent() {
                         new lifestyle. This works for me, and I am excited about
                         it, which is why I share it on this site.
                     </p>
-
                     <h4 className="mt-4">
                         <strong>Victory must be a lifestyle </strong>
                     </h4>
@@ -96,11 +153,9 @@ export function AboutContent() {
                         existed long before low-fat diets were invented. In any
                         event, be unwavering and the resistance will pass.
                     </p>
-
                     <h4 className="mt-4">
                         <strong>Training Solutions</strong>
                     </h4>
-
                     <p>
                         <i>
                             <b>First things first.&nbsp;</b>

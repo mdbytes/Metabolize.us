@@ -7,13 +7,13 @@ import slideFive from '../../images/home/slider-5.webp';
 import slideSix from '../../images/home/slider-6.webp';
 
 export const sliderOne: Slide[] = [
-  { src: slideOne, slideTitle: 'Routines', href: '/posts' },
-  { src: slideTwo, slideTitle: 'Nutrition', href: '/posts' },
-  { src: slideThree, slideTitle: 'Motivation', href: '/posts' },
+    { src: slideTwo, slideTitle: 'Nutrition', href: '/posts' },
+    { src: slideOne, slideTitle: 'Exercise', href: '/posts' },
+    { src: slideThree, slideTitle: 'Motivation', href: '/posts' },
 ];
 
 export const sliderTwo: Slide[] = [
-  { src: slideFour, slideTitle: 'Strength Training', href: '/posts' },
-  { src: slideFive, slideTitle: 'Planning', href: '/posts' },
-  { src: slideSix, slideTitle: 'Recovery', href: '/posts' },
+    { src: slideFour, slideTitle: 'Strength Training', href: '/posts' },
+    { src: slideFive, slideTitle: 'Planning', href: '/posts' },
+    { src: slideSix, slideTitle: 'Recovery', href: '/posts' },
 ];

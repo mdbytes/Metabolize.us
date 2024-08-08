@@ -6,12 +6,11 @@ import MetabolicSyndrome from './MetabolicSyndrome';
 
 export default async function FeaturedArticles() {
     let featuredPosts = await getFeaturedPosts();
-
+    console.log(featuredPosts);
     if (featuredPosts.length > 0) {
         return (
             <div id="featured-posts" className="featured-posts">
-                <hr />
-                <h2 className="text-center pt-4 mt-3">Recent Articles</h2>
+                <h2 className="text-center pt-4 mt-3">Featured Articles</h2>
 
                 <div className="row">
                     {featuredPosts.map((post) => {
@@ -28,17 +27,19 @@ export default async function FeaturedArticles() {
                                     </a>
                                 </h5>
                                 <div className="card-img-holder">
-                                    <Image
-                                        src={
-                                            post['_embedded'][
-                                                'wp:featuredmedia'
-                                            ][0]['source_url']
-                                        }
-                                        width="600"
-                                        className="img-fluid"
-                                        alt={post.title.rendered}
-                                        height="300"
-                                    />
+                                    <a href={postLink} className="nu gray">
+                                        <Image
+                                            src={
+                                                post['_embedded'][
+                                                    'wp:featuredmedia'
+                                                ][0]['source_url']
+                                            }
+                                            width="600"
+                                            className="img-fluid"
+                                            alt={post.title.rendered}
+                                            height="300"
+                                        />
+                                    </a>
                                 </div>
 
                                 <div className="card-body">
