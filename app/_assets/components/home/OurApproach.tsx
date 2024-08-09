@@ -143,32 +143,34 @@ export default function OurApproach() {
 
                         <div className="table-wrapper">
                             <table className="table pt-5">
-                                <tr>
-                                    <th>Waist Size</th>
-                                    <td>
-                                        &lt; 40 inches (men)
-                                        <br /> &lt; 34 inches (women)
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th>Blood Pressure</th>
-                                    <td>&lt; 130/80</td>
-                                </tr>
-                                <tr>
-                                    <th>Blood Sugar</th>
-                                    <td>&lt; 100mg/dL fasting</td>
-                                </tr>
-                                <tr>
-                                    <th>Cholesterol(HDL)</th>
-                                    <td>
-                                        &gt; 40 mg/dL (men) <br />
-                                        &gt; 50 mg/dL (women)
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th>Triglycerides</th>
-                                    <td>&lt; 150 mg/dL</td>
-                                </tr>
+                                <tbody>
+                                    <tr>
+                                        <th>Waist Size</th>
+                                        <td>
+                                            &lt; 40 inches (men)
+                                            <br /> &lt; 34 inches (women)
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Blood Pressure</th>
+                                        <td>&lt; 130/80</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Blood Sugar</th>
+                                        <td>&lt; 100mg/dL fasting</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Cholesterol(HDL)</th>
+                                        <td>
+                                            &gt; 40 mg/dL (men) <br />
+                                            &gt; 50 mg/dL (women)
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Triglycerides</th>
+                                        <td>&lt; 150 mg/dL</td>
+                                    </tr>
+                                </tbody>
                             </table>
                         </div>
                     </div>
