@@ -5,7 +5,7 @@ export function AboutContent() {
     return (
         <div className="container">
             <div className="row">
-                <div className="col-md-8 about">
+                <div className="col about">
                     <h2 style={{ textAlign: 'left' }}>Martin Dwyer, CFT</h2>
                     <p>
                         <Image
@@ -122,6 +122,17 @@ export function AboutContent() {
                     <h4 className="mt-4">
                         <strong>Nutrition solution found ... </strong>
                     </h4>
+                    <Image
+                        loading="eager"
+                        className="about-images-right big40"
+                        src="https://goprimalstrength.com/wp-content/uploads/2024/07/20180712_comparison_2.png"
+                        alt="EPSON MFP Number 2"
+                        itemProp="image"
+                        height="1196"
+                        width="1094"
+                        title="EPSON MFP image"
+                        sizes="(max-width: 1094px) 100vw, 1094px"
+                    />
                     <p>
                         I first explored intermittent fasting and ketogenic
                         nutrition in 2015. By 2018, my BMI was normal, signs of
@@ -160,113 +171,6 @@ export function AboutContent() {
                         message. .
                     </p>
                     <p>&nbsp;</p>
-                </div>
-
-                <div className="col-md-4 about-images">
-                    <div
-                        className="fl-module fl-module-photo fl-node-5b2d2579dedd7"
-                        data-node="5b2d2579dedd7"
-                    >
-                        <div className="fl-module-content fl-node-content">
-                            <div
-                                className="fl-photo fl-photo-align-center"
-                                itemScope
-                                itemType="https://schema.org/ImageObject"
-                            >
-                                <div className="fl-photo-content fl-photo-img-jpg">
-                                    <Image
-                                        loading="eager"
-                                        className="img-fluid mb-3"
-                                        src="https://goprimalstrength.com/wp-content/uploads/2016/10/20100610-e1476893213649.jpg"
-                                        alt="EPSON MFP Number 3"
-                                        itemProp="image"
-                                        height="1314"
-                                        width="1672"
-                                        title="EPSON MFP image"
-                                        sizes="(max-width: 1672px) 100vw, 1672px"
-                                    />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div
-                        className="fl-module fl-module-photo fl-node-5b2d24da54f2c"
-                        data-node="5b2d24da54f2c"
-                    >
-                        <div className="fl-module-content fl-node-content">
-                            <div
-                                className="fl-photo fl-photo-align-center"
-                                itemScope
-                                itemType="https://schema.org/ImageObject"
-                            >
-                                <div className="fl-photo-content fl-photo-img-jpg">
-                                    <Image
-                                        loading="eager"
-                                        className="img-fluid mb-3"
-                                        src="https://goprimalstrength.com/wp-content/uploads/2024/07/20180712_comparison_2.png"
-                                        alt="EPSON MFP Number 2"
-                                        itemProp="image"
-                                        height="1196"
-                                        width="1094"
-                                        title="EPSON MFP image"
-                                        sizes="(max-width: 1094px) 100vw, 1094px"
-                                    />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div
-                        className="fl-module fl-module-photo fl-node-5b2d1adff1587"
-                        data-node="5b2d1adff1587"
-                    >
-                        <div className="fl-module-content fl-node-content">
-                            <div
-                                className="fl-photo fl-photo-align-center"
-                                itemScope
-                                itemType="https://schema.org/ImageObject"
-                            >
-                                <div className="fl-photo-content fl-photo-img-jpg">
-                                    <Image
-                                        loading="eager"
-                                        src="https://goprimalstrength.com/wp-content/uploads/2024/07/IMG_9519.jpg"
-                                        alt="1974 Marty Baseball _BW"
-                                        itemProp="image"
-                                        height="975"
-                                        width="1200"
-                                        title="1974 Marty Baseball _BW"
-                                        sizes="(max-width: 1200px) 100vw, 1200px"
-                                        className="img-fluid mb-3"
-                                    />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div
-                        className="fl-module fl-module-photo fl-node-5b2d23d3bbf27"
-                        data-node="5b2d23d3bbf27"
-                    >
-                        <div className="fl-module-content fl-node-content">
-                            <div
-                                className="fl-photo fl-photo-align-center"
-                                itemScope
-                                itemType="https://schema.org/ImageObject"
-                            >
-                                <div className="fl-photo-content fl-photo-img-jpg">
-                                    <Image
-                                        loading="eager"
-                                        className="img-fluid mb-3"
-                                        src="https://goprimalstrength.com/wp-content/uploads/2024/07/side_side-600x600-1.jpg"
-                                        alt="EPSON MFP"
-                                        itemProp="image"
-                                        height="1401"
-                                        width="1440"
-                                        title="EPSON MFP image"
-                                        sizes="(max-width: 1440px) 100vw, 1440px"
-                                    />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>

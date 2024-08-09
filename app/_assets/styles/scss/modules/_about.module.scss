@@ -48,6 +48,10 @@
         margin-bottom: 0.7rem;
         border-radius: 8px;
         box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem rgba($black, 0.3);
+
+        &.big40 {
+            width: 40%;
+        }
     }
 
     .about p {
