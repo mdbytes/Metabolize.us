@@ -65,12 +65,12 @@ export function AboutContent() {
                         <br />
                         <br /> I got a new doctor in 2010. Since that time,
                         she&apos;s given excellent care. Perhaps the best wisdom
-                        she shared was written in her notes on my file: "Martin
-                        struggles with obesity." Serious illnesses accumulated.
-                        By the time I was 50, blood tests detected early signs
-                        of type 2 diabetes. A short time later a rare lung
-                        disease. A few years more and cancer was added to the
-                        list.{' '}
+                        she shared was written in her notes on my file:
+                        &quot;Martin struggles with obesity.&quot; Serious
+                        illnesses accumulated. By the time I was 50, blood tests
+                        detected early signs of type 2 diabetes. A short time
+                        later a rare lung disease. A few years more and cancer
+                        was added to the list.{' '}
                     </p>
                     <h4 className="mt-4">
                         <strong>The battle ensued ...</strong>
