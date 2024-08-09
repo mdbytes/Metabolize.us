@@ -15,20 +15,21 @@ const dotenv = require('dotenv');
 dotenv.config();
 
 export const metadata: Metadata = {
-    metadataBase: new URL('https://primal-strength.vercel.app'),
+    metadataBase: new URL('https://metabolize.us'),
     title: 'Home | Metabolize.us',
     description:
-        'Primal Strength Training and Conditioning, a website dedicated to strength, conditioning and longevity.',
-    keywords: 'power lifting conditioning weight lifting fitness longevity',
+        'Metabolize.us providing information research and experience for metabolic health',
+    keywords:
+        'metabolic syndrome metabolize obesity diabetes heart disease keto ketogenic fasting intermittent weightlifting conditioning fitness longevity',
     openGraph: {
-        title: 'Primal Strength and Conditioning',
+        title: 'Metabolize.us',
         type: 'website',
-        url: 'https://primal-strength.vercel.app/',
-        images: '/images/primal-strength-media.jpeg',
+        url: 'https://metabolize.us',
+        images: '/images/web-view-metabolize.jpeg',
     },
 
     twitter: {
-        images: '/images/primal-strength-media.jpeg',
+        images: '/images/web-view-metabolize.jpeg',
         card: 'summary_large_image',
     },
 };
