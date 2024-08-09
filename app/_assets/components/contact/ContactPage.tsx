@@ -12,32 +12,42 @@ export const Contact = () => {
                         <div className="row">
                             <div className="col-lg-6">
                                 <div className="cta-info w-100">
-                                    <h3 className="display-4">Need help?</h3>
-                                    <p style={{ color: 'black' }}>Reach out!</p>
+                                    <h3 className="display-4">
+                                        Training Solutions
+                                    </h3>
+                                    <p>
+                                        Your health and physical vitality does
+                                        not need to be expensive or time
+                                        consuming. These days, I prefer home gym
+                                        solutions with cardio and weightlifting
+                                        that can be pursued for little or no
+                                        investment. My own ketogenic nutrition
+                                        is accomplished mostly with whole foods
+                                        readily available at any market.
+                                    </p>{' '}
                                     <ul className="fa-ul">
                                         <li>
                                             <span className="fa-li">
                                                 <i className="fa-solid fa-envelope"></i>
                                             </span>
-                                            Send us a message today.
+                                            Send me a message with the form on
+                                            this page.
                                         </li>
                                         <li>
                                             <span className="fa-li">
                                                 <i className="fa-solid fa-pen-to-square"></i>
                                             </span>
-                                            Describe your situation.
+                                            Describe your situation, including
+                                            medical challenges you would like to
+                                            overcome.
                                         </li>
                                         <li>
                                             <span className="fa-li">
                                                 <i className="fa-solid fa-trophy"></i>
                                             </span>
-                                            Tell us about your desired outcome.
+                                            Tell me what you want to accomplish.
                                         </li>
                                     </ul>
-                                    <p style={{ color: 'black' }}>
-                                        We will get back to your as soon as
-                                        possible.
-                                    </p>
                                 </div>
                             </div>
                             <ContactForm />

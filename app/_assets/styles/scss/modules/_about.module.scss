@@ -24,29 +24,34 @@
         border-radius: 8px;
     }
 
-    .about-images img {
-        max-width: 80% !important;
-        height: auto !important;
-        margin: 0.5rem auto !important;
+    .about-images-profile {
+        width: 85px;
+        height: auto;
+        margin-top: 0.7rem;
+        margin-right: 0.7rem;
+        margin-bottom: 0.7rem;
         border-radius: 8px;
         box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem rgba($black, 0.3);
+        float: left;
     }
 
     .about-images {
         padding-top: 4rem;
     }
 
-    .about p {
-        font-size: 1.2rem;
-    }
-
-    .about img {
-        float: left;
-        margin-top: 2rem;
-        margin-right: 1rem;
-        margin-bottom: 1rem;
+    .about-images-right {
+        width: 25%;
+        height: auto;
+        float: right;
+        margin-top: 0.7rem;
+        margin-left: 0.7rem;
+        margin-bottom: 0.7rem;
         border-radius: 8px;
         box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem rgba($black, 0.3);
+    }
+
+    .about p {
+        font-size: 1.2rem;
     }
 }
 

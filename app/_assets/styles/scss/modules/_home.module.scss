@@ -407,6 +407,25 @@ div.featured-posts {
             color: $secondary;
             text-shadow: 0.1rem 0.1rem rgba(#000, 0.6);
             text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        p,
+        li {
+            font-size: 1.1rem;
+        }
+
+        li i {
+            color: #006600;
+        }
+
+        li {
+            padding-bottom: 0.5rem;
+            margin-left: 2rem;
+
+            @include media-breakpoint-down(lg) {
+                margin-left: 0;
+            }
         }
 
         img {

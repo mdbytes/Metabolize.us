@@ -23,7 +23,6 @@ export async function getFeaturedPosts() {
     let count = 0;
 
     for (let post of result.data) {
-        console.log(post.tags);
         if (post.tags.includes(123)) {
             featuredPosts.push(post);
         }

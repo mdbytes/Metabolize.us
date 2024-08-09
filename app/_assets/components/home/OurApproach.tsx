@@ -38,28 +38,58 @@ export default function OurApproach() {
                                     to you:
                                 </p>
 
-                                <ul style={{ width: '100%', clear: 'both' }}>
+                                <ul
+                                    className="fa-ul"
+                                    style={{ width: '100%', clear: 'both' }}
+                                >
                                     <li>
+                                        <span className="fa-li">
+                                            <i className="fa-solid fa-circle-arrow-right"></i>
+                                        </span>
                                         The world is facing a three-fold
                                         pandemic of diabetes, heart disease and
                                         cancer.
                                     </li>
                                     <li>
+                                        <span className="fa-li">
+                                            <i className="fa-solid fa-circle-arrow-right"></i>
+                                        </span>
                                         This pandemic is driven by obesity,
                                         blood pressure, blood sugar and blood
                                         lipid levels.
                                     </li>
                                     <li>
+                                        <span className="fa-li">
+                                            <i className="fa-solid fa-circle-arrow-right"></i>
+                                        </span>
                                         Low-fat diets, diet centers, and diet
                                         products have all failed for decades.
-                                    </li>
-                                    <li>Calorie counting diets do not work.</li>
-                                    <li>We do not need more pills or shots.</li>
+                                    </li>{' '}
                                     <li>
-                                        We need more whole foods and more
-                                        exercise.
+                                        <span className="fa-li">
+                                            <i className="fa-solid fa-circle-arrow-right"></i>
+                                        </span>
+                                        Calorie counting diets do not work.
                                     </li>
-                                    <li>We need smart new solutions.</li>
+                                    <li>
+                                        <span className="fa-li">
+                                            <i className="fa-solid fa-circle-arrow-right"></i>
+                                        </span>
+                                        We do not need more pills or shots.
+                                    </li>
+                                    <li>
+                                        <span className="fa-li">
+                                            <i className="fa-solid fa-circle-arrow-right"></i>
+                                        </span>
+                                        We need more whole foods and to
+                                        eliminate processed foods.
+                                    </li>
+                                    <li>
+                                        <span className="fa-li">
+                                            <i className="fa-solid fa-circle-arrow-right"></i>
+                                        </span>
+                                        We need more exercise.
+                                    </li>
                                 </ul>
                                 <p>
                                     <Image

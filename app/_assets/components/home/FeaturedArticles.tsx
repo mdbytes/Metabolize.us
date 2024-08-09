@@ -6,7 +6,7 @@ import MetabolicSyndrome from './MetabolicSyndrome';
 
 export default async function FeaturedArticles() {
     let featuredPosts = await getFeaturedPosts();
-    console.log(featuredPosts);
+
     if (featuredPosts.length > 0) {
         return (
             <div id="featured-posts" className="featured-posts">
