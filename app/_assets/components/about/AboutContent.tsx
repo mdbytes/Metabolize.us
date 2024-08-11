@@ -6,7 +6,7 @@ export function AboutContent() {
         <div className="container">
             <div className="row">
                 <div className="col about">
-                    <h2 style={{ textAlign: 'left' }}>Martin Dwyer, CFT</h2>
+                    <h2 style={{ textAlign: 'left' }}>Metabolize.us</h2>
                     <p>
                         <Image
                             src="https://goprimalstrength.com/wp-content/uploads/2018/02/Screenshot-from-2018-02-19-13-41-25-150x150.png"
@@ -17,13 +17,17 @@ export function AboutContent() {
                         />
                     </p>
                     <p>
-                        Thanks for visiting this page. I created it to share my
-                        journey and to share what I have learned and to
-                        encourage others. I am 61 years old. My battle with
-                        obesity, high blood pressure and prediabetes crept
-                        slowly into my adult life. Today, these symptoms
-                        combined reflect metabolic syndrome. Winning this battle
-                        meant finding a solution and learning some lessons.
+                        Thanks for visiting metabolize.us. My name is Martin
+                        Dwyer and I am over 60 years old. I am cancer free, no
+                        longer have high blood pressure, and any signs of
+                        prediabetes or lung disease are gone. My health issues
+                        were related to metabolism, revealed first in obesity,
+                        which translated into obesity, prediabetes, a weakened
+                        immune system and cancer. The solutions which I have
+                        found are neither unique nor novel. Nor are they
+                        commonly recommended in medical offices today. I hope
+                        that sharing them here can help encourage others to find
+                        victory over chronic disease.
                     </p>
                     <h4 className="mt-4">
                         <strong>Obesity and disease crept in...</strong>
@@ -62,27 +66,24 @@ export function AboutContent() {
                         but neither of us referred to it as such even though it
                         was silently killing us both. That doctor died a few
                         years back. He was only 62 years old.
+                        <h4 className="mt-4">
+                            <strong>The struggle to survive ...</strong>
+                        </h4>
+                        I got a new doctor in 2010. Since that time, she&apos;s
+                        given excellent care. Perhaps the best wisdom she shared
+                        was written in her notes on my file: &quot;Martin
+                        struggles with obesity.&quot; Serious illnesses were
+                        accumulating quickly. Blood tests detected early signs
+                        of type 2 diabetes. My first cancer a short time later.
+                        I was not just a <i>big strong man</i>, I was{' '}
+                        <i>obese and dying from it</i>.
                         <br />
-                        <br /> I got a new doctor in 2010. Since that time,
-                        she&apos;s given excellent care. Perhaps the best wisdom
-                        she shared was written in her notes on my file:
-                        &quot;Martin struggles with obesity.&quot; Serious
-                        illnesses accumulated. By the time I was 50, blood tests
-                        detected early signs of type 2 diabetes. A short time
-                        later a rare lung disease. A few years more and cancer
-                        was added to the list.{' '}
-                    </p>
-                    <h4 className="mt-4">
-                        <strong>The battle ensued ...</strong>
-                    </h4>
-                    <p></p>
-                    <p>
-                        I knew gaining weight was unhealthy, and always battled
-                        to overcome. I tried every diet that came along. If the
-                        author of the program wrote a book, I read it. In total,
-                        I&apos;ve read hundreds of diet books and tried every
-                        single solution. The efforts were not without occasional
-                        victories:
+                        <br />I knew gaining weight was unhealthy, and always
+                        battled to overcome. I tried every diet that came along.
+                        If the author of the program wrote a book, I read it. In
+                        total, I&apos;ve read hundreds of diet books and tried
+                        every single solution. The efforts were not without
+                        occasional victories:
                     </p>
                     <ul>
                         <li>Lost 70 pounds on Slim Fast</li>
@@ -99,28 +100,9 @@ export function AboutContent() {
                         plus 10%. Yes. I lost 225 pounds but then gained 250
                         pounds. The hold was just getting deeper
                     </p>
-                    <h4 className="mt-4">
-                        <strong>More exercise ...</strong>
-                    </h4>
-
-                    <p>
-                        My first reaction was to get busy again, returning to
-                        the strength and conditioning of my youth. To help me
-                        engage and share with others, I completed{' '}
-                        <a href="https://www.issaonline.com/certification/personal-trainer-certification">
-                            certification
-                        </a>{' '}
-                        as a Certified Fitness Trainer (CFT) and Strength and
-                        Conditioning Coach( SSC). It felt great to be strong and
-                        to encourage others in strength training. I even
-                        competed in power lifting events. But the focus on
-                        strength training was masking the continuing issue, i.e.
-                        it was still so easy to gain weight and near impossible
-                        to control at healthy levels.
-                    </p>
 
                     <h4 className="mt-4">
-                        <strong>Nutrition solution found ... </strong>
+                        <strong>A metabolic solution ... </strong>
                     </h4>
                     <Image
                         loading="eager"
@@ -133,6 +115,19 @@ export function AboutContent() {
                         title="EPSON MFP image"
                         sizes="(max-width: 1094px) 100vw, 1094px"
                     />
+                    <p>
+                        The first component of my solution was to return to the
+                        weight room and cardio equipment. It was helpful for me
+                        to be involved with others, so I competed in power
+                        lifting events and did whatever it took to maintain a
+                        healthy weight class. However, the{' '}
+                        <i>whatever it takes</i> part of that formula was for me
+                        starvation. Usually extended periods with less than
+                        1,200 calories per day. This was unsustainable. I was
+                        different. I needed a different solution for my
+                        metabolism.
+                    </p>
+
                     <p>
                         I first explored intermittent fasting and ketogenic
                         nutrition in 2015. By 2018, my BMI was normal, signs of

@@ -38,7 +38,7 @@ export function Footer() {
                                 <div id="social-icons" className="row ">
                                     <a
                                         className="col"
-                                        href="http://facebook.com/mdbytes"
+                                        href="https://www.facebook.com/metabolize.us/"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
@@ -46,7 +46,7 @@ export function Footer() {
                                     </a>
                                     <a
                                         className="col"
-                                        href="http://twitter.com/mdbytes"
+                                        href="https://x.com/MetabolicMartin"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
@@ -55,7 +55,7 @@ export function Footer() {
 
                                     <a
                                         className="col"
-                                        href="http://instagram.com"
+                                        href="https://www.instagram.com/livestrongmd/"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
