@@ -128,7 +128,7 @@ export default function OurApproach() {
                                     , review the list of{' '}
                                     <Link href="/posts">articles</Link>{' '}
                                     available at this time, watch one of the
-                                    many YouTube videos available here, or{' '}
+                                    YouTube videos available here, or{' '}
                                     <Link href="/contact">contact me</Link> with
                                     questions about nutrition, training,{' '}
                                     <Link href="/about">
