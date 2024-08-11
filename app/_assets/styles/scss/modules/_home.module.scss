@@ -489,6 +489,37 @@ div.featured-posts {
             background-repeat: no-repeat;
             background-position: center top;
             background-size: contain;
+
+            .metabolic-solution {
+                height: 30rem;
+                background: rgba($white, 0.8);
+
+                p {
+                    color: $secondary;
+                    font-weight: 400;
+                    margin-bottom: 3rem;
+                    text-shadow: 0.05rem 0.05rem 0.05rem rgba(#000, 0.9);
+                }
+
+                ul {
+                    margin: 1rem 10%;
+                    li {
+                        margin-left: 10%;
+                        padding-left: 5%;
+                        font-size: 1.5rem;
+                        font-weight: 500;
+                        height: 5rem;
+                        color: $primary;
+                        text-shadow: 0.05rem 0.05rem 0.05rem rgba(#000, 0.9);
+
+                        i {
+                            font-size: 1rem;
+                            color: $primary;
+                            text-shadow: none;
+                        }
+                    }
+                }
+            }
         }
 
         table {

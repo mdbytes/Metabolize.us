@@ -142,7 +142,42 @@ export default function OurApproach() {
                         <h3 className="text-center">Metabolic Wellness</h3>
 
                         <div className="table-wrapper">
-                            <table className="table pt-5">
+                            <div className="metabolic-solution">
+                                <p className="text-center">
+                                    Meeting today&apos;s challenge with:
+                                </p>
+
+                                <ul className="fa-ul" style={{ width: '100%' }}>
+                                    <li>
+                                        <span className="fa-li">
+                                            <i className="fa-solid fa-circle-check"></i>
+                                        </span>
+                                        Intermittent Fasting
+                                    </li>
+                                    <li>
+                                        <span className="fa-li">
+                                            <i className="fa-solid fa-circle-check"></i>
+                                        </span>
+                                        Ketogenic Nutrition
+                                    </li>
+                                    <li>
+                                        <span className="fa-li">
+                                            <i className="fa-solid fa-circle-check"></i>
+                                        </span>
+                                        Metabolic Resistance Training
+                                    </li>
+                                    <li>
+                                        <span className="fa-li">
+                                            <i className="fa-solid fa-circle-check"></i>
+                                        </span>
+                                        High Intensity Interval Cardio
+                                    </li>
+                                </ul>
+                            </div>
+                            <table
+                                className="table pt-5"
+                                style={{ display: 'none' }}
+                            >
                                 <tbody>
                                     <tr>
                                         <th>Waist Size</th>
