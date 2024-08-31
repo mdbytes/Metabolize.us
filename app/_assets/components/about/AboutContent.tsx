@@ -6,28 +6,34 @@ export function AboutContent() {
         <div className="container">
             <div className="row">
                 <div className="col about">
-                    <h2 style={{ textAlign: 'left' }}>Metabolize.us</h2>
                     <p>
                         <Image
                             src="https://goprimalstrength.com/wp-content/uploads/2018/02/Screenshot-from-2018-02-19-13-41-25-150x150.png"
                             alt=""
-                            width="75"
-                            height="75"
+                            width="125"
+                            height="125"
                             className="about-images-profile"
                         />
                     </p>
                     <p>
                         Thanks for visiting metabolize.us. My name is Martin
-                        Dwyer and I am over 60 years old. I am cancer free, no
-                        longer have high blood pressure, and any signs of
-                        prediabetes or lung disease are gone. My health issues
-                        were related to metabolism, revealed first in obesity,
-                        which translated into obesity, prediabetes, a weakened
-                        immune system and cancer. The solutions which I have
-                        found are neither unique nor novel. Nor are they
-                        commonly recommended in medical offices today. I hope
-                        that sharing them here can help encourage others to find
-                        victory over chronic disease.
+                        Dwyer and I am over 60 years old. At one point in my
+                        life, my health was dominated by metabolic syndrome.
+                        Obesity, high blood pressure, prediabetes, chronic lung
+                        disease and cancer were killing me, literally. Today, I
+                        am cancer free, no longer have high blood pressure, any
+                        signs of prediabetes or lung disease.
+                        <br />
+                        <br />
+                        The solutions which I have found are neither new nor
+                        unique. Some of them are ancient. Nor are they commonly
+                        recommended in medical offices today. I hope that
+                        sharing them along with my experience will encourage
+                        others.
+                        <br />
+                        <br />
+                        It has become apparent that what has happened in my life
+                        is unfortunately common today.
                     </p>
                     <h4 className="mt-4">
                         <strong>Obesity and disease crept in...</strong>
@@ -61,24 +67,31 @@ export function AboutContent() {
                         32, I was diagnosed with high blood pressure. My doctor
                         at the time did me no favors. Neither my weight nor my
                         BMI were mentioned in the meeting where I was first
-                        prescribed high blood pressure medication. You see, my
-                        doctor was also a big strong man. We were both obese,
-                        but neither of us referred to it as such even though it
-                        was silently killing us both. That doctor died a few
-                        years back. He was only 62 years old.
+                        prescribed high blood pressure medication.
+                        <br />
+                        <br />
+                        Maybe my doctor was being nice, not wanting to ridicule
+                        me for my weight. Maybe my doctor was protecting his own
+                        ego as he was also a big man. But reality is reality, we
+                        were both obese and silently robbing ourselves of life
+                        itself.
+                        <br />
+                        <br />
+                        Serious illnesses accumulated over the years. Chronic
+                        lung disease was detected by the time I was 45 years
+                        old. Blood tests detected early signs of type 2
+                        diabetes. My first cancer a short time later. I was not
+                        just a <i>big strong man</i>, I was{' '}
+                        <i>obese and dying from it</i>.
                         <h4 className="mt-4">
                             <strong>The struggle to survive ...</strong>
                         </h4>
                         I got a new doctor in 2010. Since that time, she&apos;s
                         given excellent care. Perhaps the best wisdom she shared
                         was written in her notes on my file: &quot;Martin
-                        struggles with obesity.&quot; Serious illnesses were
-                        accumulating quickly. Blood tests detected early signs
-                        of type 2 diabetes. My first cancer a short time later.
-                        I was not just a <i>big strong man</i>, I was{' '}
-                        <i>obese and dying from it</i>.
-                        <br />
-                        <br />I knew gaining weight was unhealthy, and always
+                        struggles with obesity.&quot; What does a{' '}
+                        <i>struggle with obesity</i> look like over twenty
+                        years? I knew gaining weight was unhealthy, and always
                         battled to overcome. I tried every diet that came along.
                         If the author of the program wrote a book, I read it. In
                         total, I&apos;ve read hundreds of diet books and tried
@@ -138,29 +151,28 @@ export function AboutContent() {
                         as my commitment to keto waned. The weight would be lost
                         when I returned.
                     </p>
+                    <h4 className="mt-4">
+                        <strong>The struggle never ends ...</strong>
+                    </h4>
                     <p>
-                        Most recently, a softball-size tumor in my abdomen
-                        contributed to weight gain for almost two years before
-                        it was discovered and removed. The cancer was removed
-                        and I was back to my nutrition program. The weight was
-                        lost and I am otherwise healthy.
+                        The solution I have found is a powerful weapon against
+                        metabolic syndrome. But it is only in a weapon in the
+                        battle against metabolic syndrome. The battle rages on
+                        each day. Most recently, a softball-size tumor in my
+                        abdomen contributed to weight gain for almost two years
+                        before it was discovered and removed. The cancer was
+                        removed and I was back to my nutrition program. The
+                        weight was lost and I am otherwise healthy.
                     </p>
-
+                    <h4 className="mt-4">
+                        <strong>Encouragement ...</strong>
+                    </h4>
                     <p>
-                        My greatest nutritional takeaways are threefold. First,
-                        some of us gain weight easily. It&apos;s not because we
-                        want to be fat, but its a metabolic disorder which could
-                        be rooted either things we&apos;ve done in the past or
-                        family genetics. Second, for those of us being drug to
-                        obesity by our metabolism, it is vital to reject the
-                        enemy, engage the battle and commit to victory. Finally,
-                        we need a new and smarter solution than what&apos;s
-                        being sold in most doctors and weight loss programs.
-                    </p>
-
-                    <p>
-                        If you have any questions about the material on this
-                        site, or would like to explore a personal coaching
+                        My goal is to encourage others in their wellness
+                        journey, especially those like myself who have fallen
+                        prey to a struggle with metabolic syndrome. If you need
+                        encouragement, would like to discuss the material on
+                        this site, or would like to explore a personal coaching
                         arrangement for yourself, please visit the{' '}
                         <a href="/contact">contact page</a> to send me a
                         message. .

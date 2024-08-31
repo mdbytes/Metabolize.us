@@ -11,6 +11,26 @@
     background: #f2f2f2;
 }
 
+.about-intro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+.about-martin-image {
+    padding: 0;
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    box-shadow: 0px 0px 1.5rem rgba(0, 0, 0, 0.7);
+}
+
 #about-page {
     background: #f2f2f2;
 
@@ -33,14 +53,20 @@
     }
 
     .about-images-profile {
-        width: 85px;
+        width: 150px;
         height: auto;
         margin-top: 0.7rem;
-        margin-right: 0.7rem;
-        margin-bottom: 0.7rem;
+        margin-right: 1.5rem;
+        margin-bottom: 0.5rem;
         border-radius: 8px;
         box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem rgba($black, 0.3);
         float: left;
+
+        @include media-breakpoint-down(md) {
+            width: 85px;
+            margin-right: 0.7rem;
+            margin-bottom: 0.7rem;
+        }
     }
 
     .about-images {
