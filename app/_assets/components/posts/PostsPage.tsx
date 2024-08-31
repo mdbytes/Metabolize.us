@@ -22,9 +22,30 @@ export default async function PostsPage() {
                 <div id="adventures" className="service-objects">
                     {posts.map((post: Post) => (
                         <div className="row service-item-row" key={post.id}>
+                            <div className="col-lg-6 col-sm-12 col-xs-12  services-column">
+                                <h3 className="display-3--title small-screen-title">
+                                    {parse(post.title.rendered)}
+                                </h3>
+                                <div className="services__pic">
+                                    <Link href={'/post/' + post.slug} passHref>
+                                        <Image
+                                            layout="fixed"
+                                            height={300}
+                                            width={600}
+                                            src={
+                                                post['_embedded'][
+                                                    'wp:featuredmedia'
+                                                ][0]['source_url']
+                                            }
+                                            alt="UI Design"
+                                            className="img-fluid"
+                                        />
+                                    </Link>
+                                </div>
+                            </div>
                             <div className="col-lg-6 col-sm-12 col-xs-12 services-column">
                                 <div className="services__content">
-                                    <h3 className="display-3--title">
+                                    <h3 className="display-3--title full-screen-title">
                                         {parse(post.title.rendered)}
                                     </h3>
                                     <span className="lh-lg">
@@ -50,24 +71,6 @@ export default async function PostsPage() {
                                             </div>
                                         </Link>
                                     </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-6 col-sm-12 col-xs-12  services-column">
-                                <div className="services__pic">
-                                    <Link href={'/post/' + post.slug} passHref>
-                                        <Image
-                                            layout="fixed"
-                                            height={300}
-                                            width={600}
-                                            src={
-                                                post['_embedded'][
-                                                    'wp:featuredmedia'
-                                                ][0]['source_url']
-                                            }
-                                            alt="UI Design"
-                                            className="img-fluid"
-                                        />
-                                    </Link>
                                 </div>
                             </div>
                         </div>
