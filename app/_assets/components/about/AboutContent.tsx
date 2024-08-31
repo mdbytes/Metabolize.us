@@ -152,7 +152,7 @@ export function AboutContent() {
                         when I returned.
                     </p>
                     <h4 className="mt-4">
-                        <strong>The struggle never ends ...</strong>
+                        <strong>The battle never ends ...</strong>
                     </h4>
                     <p>
                         The solution I have found is a powerful weapon against
