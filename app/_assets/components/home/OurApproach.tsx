@@ -25,26 +25,17 @@ export default function OurApproach() {
                                         className="img-fluid"
                                     />
                                     My name is Martin. I am over 60 years old
-                                    and have been training most of my life. But
-                                    serious health challenges with prediabetes,
-                                    lung disease and cancer were relentless.
-                                    These challenges brought me to a point where
-                                    I needed to change if I wanted to be around
-                                    for my loved ones, including my
-                                    grandchildren who are just getting started.
+                                    and have been training most of my life.
+                                    Resistance training, ketogenic nutrition and
+                                    high intensity cardio have changed my life.
+                                    You will find my own experience here along
+                                    with my research as a certified personal
+                                    trainer. This website is intended to battle
+                                    chronic disease by promoting healthy
+                                    outcomes from proper nutrition and exercise
+                                    as the world faces troubling realities:{' '}
                                     <br />
                                     <br />
-                                    My health problems were rooted in my
-                                    metabolism, and the impact of today&apos;s
-                                    nutritional standards on my health. This
-                                    website was created to share experience,
-                                    insights and lessons learned on my battle
-                                    overcoming metabolic challenges.
-                                    <br />
-                                    <br />
-                                    After seven years of overcoming, I am more
-                                    committed than ever to the following
-                                    realities for today:{' '}
                                 </p>
                                 <div className="row">
                                     <div className="col-md-8">
@@ -107,7 +98,29 @@ export default function OurApproach() {
                                                 We need more exercise.
                                             </li>
                                         </ul>
+                                        <p>
+                                            On this website, you can{' '}
+                                            <Link href="#featured-posts">
+                                                read our featured articles
+                                            </Link>
+                                            , review the
+                                            <Link href="/posts">
+                                                {' '}
+                                                list of articles
+                                            </Link>{' '}
+                                            available at this time, watch one of
+                                            the YouTube videos available here,
+                                            or{' '}
+                                            <Link href="/contact">
+                                                contact me
+                                            </Link>{' '}
+                                            or learn more about{' '}
+                                            <Link href="/about">
+                                                my background and transformation
+                                            </Link>{' '}
+                                        </p>
                                     </div>
+
                                     <div className="col-md-4">
                                         <Image
                                             src={approachPic}
@@ -118,28 +131,6 @@ export default function OurApproach() {
                                         />
                                     </div>
                                 </div>
-
-                                <p>
-                                    I set off on a journey to find a solution to
-                                    a lifetime of health struggles. What I
-                                    learned changed my life. This website is
-                                    more than just a place for research,
-                                    information or encouragement, it is part of
-                                    my ongoing recovery. On this website, you
-                                    can read our{' '}
-                                    <Link href="#featured-posts">
-                                        featured articles
-                                    </Link>
-                                    , review the list of{' '}
-                                    <Link href="/posts">articles</Link>{' '}
-                                    available at this time, watch one of the
-                                    YouTube videos available here, or{' '}
-                                    <Link href="/contact">contact me</Link> with
-                                    questions about nutrition, training,{' '}
-                                    <Link href="/about">
-                                        my background and transformation
-                                    </Link>{' '}
-                                </p>
                             </div>
                         </div>
                     </div>
